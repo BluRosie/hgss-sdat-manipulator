@@ -1,0 +1,41 @@
+Track_1:
+	Poly 0
+	Tempo 500
+	Instrument 70
+	Volume 125
+	Pan 64
+	Expression 125
+	PitchBendRange 6
+	Priority 64
+	ModDepth 0
+	ModSpeed 16
+	ModType 0
+	ModRange 1
+	ModDelay 0
+	PitchBend 0
+Label_0x19FD02:
+	B_4,100,2838
+	Delay 2838
+	Jump Label_0x19FD02
+	TrackEnd
+
+Track_2:
+	Poly 0
+	Volume 125
+	Pan 64
+	Expression 125
+	PitchBendRange 2
+	Priority 64
+	ModDepth 0
+	ModSpeed 16
+	ModType 0
+	ModRange 1
+	ModDelay 0
+	PitchBend 0
+Label_0x19FD27:
+	Delay 2838
+	Jump Label_0x19FD27
+	TrackEnd
+
+	TrackEnd
+

@@ -1,0 +1,240 @@
+Track_1:
+	Poly 0
+	Tempo 150
+	Instrument 70
+	Volume 127
+	Pan 64
+	PitchBendRange 12
+	PitchBend 12
+	G_8,80,12
+	Delay 2
+	PitchBend 248
+	Delay 2
+	PitchBend 228
+	Pan 69
+	Volume 105
+	Delay 3
+	PitchBend 194
+	Pan 58
+	Volume 86
+	Delay 2
+	PitchBend 174
+	Pan 64
+	Volume 29
+	Delay 3
+	PitchBend 0
+	Volume 127
+	G_8,72,12
+	Delay 2
+	PitchBend 235
+	Delay 2
+	PitchBend 216
+	Pan 69
+	Volume 105
+	Delay 3
+	PitchBend 182
+	Pan 58
+	Volume 86
+	Delay 2
+	PitchBend 162
+	Pan 64
+	Volume 29
+	Delay 3
+	PitchBend 254
+	Volume 127
+	G_8,65,12
+	Delay 2
+	PitchBend 234
+	Delay 2
+	PitchBend 215
+	Pan 69
+	Volume 105
+	Delay 3
+	PitchBend 180
+	Pan 58
+	Volume 86
+	Delay 2
+	PitchBend 160
+	Pan 64
+	Volume 29
+	Delay 3
+	PitchBend 254
+	Volume 127
+	G_8,59,12
+	Delay 2
+	PitchBend 234
+	Delay 2
+	PitchBend 215
+	Pan 69
+	Volume 105
+	Delay 3
+	PitchBend 180
+	Pan 58
+	Volume 86
+	Delay 2
+	PitchBend 160
+	Pan 64
+	Volume 29
+	Delay 3
+	PitchBend 253
+	Volume 127
+	G_8,52,12
+	Delay 2
+	PitchBend 233
+	Pan 69
+	Delay 2
+	PitchBend 213
+	Pan 58
+	Volume 105
+	Delay 3
+	PitchBend 179
+	Pan 72
+	Volume 86
+	Delay 2
+	PitchBend 159
+	Pan 54
+	Volume 29
+	Delay 3
+	PitchBend 253
+	Pan 64
+	Volume 127
+	G_8,46,12
+	Delay 2
+	PitchBend 233
+	Pan 69
+	Delay 2
+	PitchBend 213
+	Pan 58
+	Volume 105
+	Delay 3
+	PitchBend 179
+	Pan 72
+	Volume 86
+	Delay 2
+	PitchBend 159
+	Pan 54
+	Volume 29
+	Delay 3
+	PitchBend 252
+	Volume 127
+	G_8,39,12
+	Delay 2
+	PitchBend 231
+	Pan 69
+	Delay 2
+	PitchBend 212
+	Pan 58
+	Volume 105
+	Delay 3
+	PitchBend 178
+	Pan 72
+	Volume 86
+	Delay 2
+	PitchBend 158
+	Pan 54
+	Volume 29
+	Delay 3
+	PitchBend 252
+	Pan 64
+	Volume 127
+	G_8,30,12
+	Delay 2
+	PitchBend 231
+	Pan 69
+	Delay 2
+	PitchBend 212
+	Pan 58
+	Volume 105
+	Delay 3
+	PitchBend 178
+	Pan 72
+	Volume 86
+	Delay 2
+	PitchBend 158
+	Pan 54
+	Volume 29
+	Delay 3
+	TrackEnd
+
+Track_2:
+	Poly 0
+	Instrument 112
+	Volume 127
+	Pan 64
+	Delay 4
+	E_8,64,12
+	Delay 5
+	Volume 105
+	Delay 3
+	Volume 86
+	Delay 2
+	Volume 29
+	Delay 2
+	Volume 127
+	E_8,55,12
+	Delay 5
+	Volume 105
+	Delay 3
+	Volume 86
+	Delay 2
+	Volume 29
+	Delay 2
+	Volume 127
+	E_8,52,12
+	Delay 5
+	Volume 105
+	Delay 3
+	Volume 86
+	Delay 2
+	Volume 29
+	Delay 2
+	Volume 127
+	E_8,49,12
+	Delay 5
+	Volume 105
+	Delay 3
+	Volume 86
+	Delay 2
+	Volume 29
+	Delay 2
+	Volume 127
+	E_8,45,12
+	Delay 5
+	Volume 105
+	Delay 3
+	Volume 86
+	Delay 2
+	Volume 29
+	Delay 2
+	Volume 127
+	E_8,42,12
+	Delay 5
+	Volume 105
+	Delay 3
+	Volume 86
+	Delay 2
+	Volume 29
+	Delay 2
+	Volume 127
+	E_8,39,12
+	Delay 5
+	Volume 105
+	Delay 3
+	Volume 86
+	Delay 2
+	Volume 29
+	Delay 2
+	Volume 127
+	E_8,34,12
+	Delay 5
+	Volume 105
+	Delay 3
+	Volume 86
+	Delay 2
+	Volume 29
+	Delay 2
+	TrackEnd
+
+	TrackEnd
+
+	C_0,0,0

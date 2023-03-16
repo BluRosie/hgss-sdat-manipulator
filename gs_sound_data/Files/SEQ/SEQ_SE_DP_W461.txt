@@ -1,0 +1,172 @@
+Track_1:
+	Poly 0
+	Tempo 120
+	Instrument 3
+	Volume 127
+	Pan 64
+	PitchBendRange 4
+	PitchBend 7
+	ModDepth 6
+	G#6,127,12
+	Delay 12
+	E_6,127,12
+	Delay 12
+	C#6,127,12
+	Delay 12
+	D#6,127,12
+	Delay 12
+	PitchBendRange 4
+	PitchBend 7
+	ModDepth 6
+	A_6,126,12
+	Delay 12
+	E_6,127,12
+	Delay 12
+	C#6,127,12
+	Delay 12
+	D#6,127,12
+	Delay 12
+	PitchBendRange 4
+	PitchBend 7
+	ModDepth 6
+	A_6,127,12
+	Delay 12
+	F#6,127,12
+	Delay 12
+	C#6,127,12
+	Delay 12
+	D#6,127,12
+	Delay 12
+	PitchBendRange 4
+	PitchBend 7
+	ModDepth 6
+	A_6,127,12
+	Delay 12
+	G#6,127,12
+	Delay 12
+	D#6,127,12
+	Delay 12
+	F#6,127,12
+	Delay 12
+	PitchBendRange 4
+	PitchBend 7
+	ModDepth 6
+	G#6,102,12
+	Delay 12
+	E_6,95,12
+	Delay 12
+	C#6,87,12
+	Delay 12
+	D#6,75,12
+	Delay 12
+	PitchBendRange 4
+	PitchBend 7
+	ModDepth 6
+	A_6,56,12
+	Delay 12
+	E_6,50,12
+	Delay 12
+	C#6,35,12
+	Delay 12
+	D#6,28,12
+	Delay 12
+	PitchBendRange 4
+	PitchBend 7
+	ModDepth 6
+	A_6,19,12
+	Delay 12
+	F#6,12,12
+	Delay 12
+	C#6,6,12
+	Delay 12
+	D#6,1,12
+	Delay 12
+	TrackEnd
+
+Track_2:
+	Poly 0
+	Instrument 27
+	Volume 127
+	PitchBendRange 4
+	PitchBend 7
+	ModDepth 6
+	G#7,127,12
+	Delay 12
+	E_7,127,12
+	Delay 12
+	C#7,127,12
+	Delay 12
+	D#7,127,12
+	Delay 12
+	PitchBendRange 4
+	PitchBend 7
+	ModDepth 6
+	A_7,126,12
+	Delay 12
+	E_7,127,12
+	Delay 12
+	C#7,127,12
+	Delay 12
+	D#7,127,12
+	Delay 12
+	PitchBendRange 4
+	PitchBend 7
+	ModDepth 6
+	A_7,127,12
+	Delay 12
+	F#7,127,12
+	Delay 12
+	C#7,127,12
+	Delay 12
+	D#7,127,12
+	Delay 12
+	PitchBendRange 4
+	PitchBend 7
+	ModDepth 6
+	A_7,127,12
+	Delay 12
+	G#7,127,12
+	Delay 12
+	D#7,127,12
+	Delay 12
+	F#7,127,12
+	Delay 12
+	Instrument 23
+	PitchBendRange 4
+	PitchBend 7
+	ModDepth 6
+	G#7,66,12
+	Delay 12
+	E_7,57,12
+	Delay 12
+	C#7,50,12
+	Delay 12
+	D#7,42,12
+	Delay 12
+	PitchBendRange 4
+	PitchBend 7
+	ModDepth 6
+	A_7,38,12
+	Delay 12
+	E_7,31,12
+	Delay 12
+	C#7,25,12
+	Delay 12
+	D#7,21,12
+	Delay 12
+	PitchBendRange 4
+	PitchBend 7
+	ModDepth 6
+	A_7,15,12
+	Delay 12
+	F#7,15,12
+	Delay 12
+	C#7,14,12
+	Delay 12
+	D#7,10,12
+	Delay 12
+	TrackEnd
+
+	TrackEnd
+
+	C_0,0,0

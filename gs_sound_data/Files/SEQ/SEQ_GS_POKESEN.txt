@@ -1,0 +1,1519 @@
+Track_1:
+	Poly 0
+	Tempo 114
+	Instrument 5
+	Volume 105
+	Pan 64
+	Priority 64
+Label_0x657CF:
+	F#5,100,22
+	D_6,115,22
+	Delay 24
+	D_5,95,10
+	A_5,110,10
+	Delay 24
+	F#5,95,10
+	D_6,110,10
+	Delay 24
+	D_6,95,13
+	A_6,110,13
+	Delay 48
+	B_5,98,46
+	G_6,113,46
+	Delay 48
+	A_5,105,10
+	F#6,110,10
+	Delay 24
+	G_5,95,22
+	E_6,110,22
+	Delay 24
+	G_5,75,19
+	C#6,110,19
+	Delay 129
+	Call Label_0x65916
+	F#5,95,22
+	D_6,110,22
+	Delay 24
+	A_5,95,22
+	F#6,110,22
+	Delay 129
+	F#5,100,22
+	D_6,115,22
+	Delay 24
+	D_5,95,10
+	A_5,110,10
+	Delay 24
+	F#5,95,22
+	D_6,110,22
+	Delay 24
+	D_6,95,18
+	A_6,110,18
+	Delay 48
+	B_5,95,34
+	G_6,110,34
+	Delay 48
+	A_5,94,22
+	F#6,109,22
+	Delay 24
+	G_5,95,22
+	E_6,110,22
+	Delay 24
+	E_5,75,22
+	C#6,110,22
+	Delay 129
+	Call Label_0x65916
+	F#5,95,70
+	D_6,110,70
+	Delay 129
+	Pan 20
+	Delay 1
+	F#6,110,82
+	Delay 96
+	A_6,112,83
+	Delay 96
+	G_6,110,23
+	Delay 24
+	A_6,105,23
+	Delay 24
+	G_6,103,11
+	Delay 12
+	F#6,98,11
+	Delay 24
+	E_6,110,95
+	Delay 108
+	C#6,110,83
+	Delay 96
+	E_6,113,83
+	Delay 96
+	F#6,110,23
+	Delay 24
+	G_6,109,23
+	Delay 24
+	F#6,105,11
+	Delay 12
+	E_6,101,11
+	Delay 24
+	D_6,112,95
+	Delay 108
+	F#6,110,95
+	Delay 96
+	A_6,108,83
+	Delay 96
+	G_6,110,23
+	Delay 24
+	F#6,107,23
+	Delay 24
+	G_6,108,11
+	Delay 12
+	A_6,104,11
+	Delay 24
+	B_6,110,83
+	Delay 108
+	A_6,110,47
+	Delay 48
+	G_6,110,11
+	Delay 24
+	F#6,110,11
+	Delay 12
+	G_6,110,95
+	Delay 108
+	F#6,110,23
+	Delay 24
+	G_6,106,23
+	Delay 24
+	F#6,108,11
+	Delay 12
+	E_6,104,11
+	Delay 24
+	D_6,112,71
+	Delay 102
+	Pan 64
+	Delay 6
+	Jump Label_0x657CF
+	TrackEnd
+
+Label_0x65916:
+	E_5,100,22
+	C#6,115,22
+	Delay 24
+	C#5,95,10
+	A_5,110,10
+	Delay 24
+	E_5,95,22
+	C#6,110,22
+	Delay 24
+	A_5,95,22
+	F#6,110,22
+	Delay 48
+	G_5,95,22
+	E_6,110,22
+	Delay 48
+	E_5,94,22
+	C#6,109,22
+	Delay 24
+	Return
+
+Track_2:
+	Poly 0
+	Instrument 19
+	Volume 125
+	Pan 60
+	Priority 60
+Label_0x65951:
+	D_3,115,19
+	Delay 48
+	A_3,115,18
+	Delay 36
+	D#3,115,10
+	Delay 36
+	D#3,115,22
+	Delay 24
+	B_3,115,22
+	Delay 24
+	D#3,115,22
+	Delay 24
+	E_3,115,19
+	Delay 48
+	B_3,115,18
+	Delay 36
+	D_3,115,10
+	Delay 36
+	D_3,115,22
+	Delay 24
+	B_3,115,22
+	Delay 24
+	D_3,115,22
+	Delay 24
+	C#3,115,22
+	Delay 48
+	A_3,115,18
+	Delay 36
+	A_2,115,34
+	Delay 36
+	E_3,115,10
+	Delay 24
+	A_3,115,22
+	Delay 24
+	A_2,115,22
+	Delay 24
+	D_3,115,22
+	Delay 48
+	A_3,115,18
+	Delay 36
+	D_3,115,10
+	Delay 36
+	A_2,115,22
+	Delay 24
+	B_2,115,22
+	Delay 24
+	C#3,115,22
+	Delay 24
+	D_3,115,19
+	Delay 48
+	A_3,115,18
+	Delay 36
+	D#3,115,10
+	Delay 36
+	D#3,115,22
+	Delay 24
+	B_3,115,22
+	Delay 24
+	D#3,115,22
+	Delay 24
+	E_3,115,19
+	Delay 48
+	B_3,115,18
+	Delay 36
+	E_3,115,10
+	Delay 36
+	E_3,115,22
+	Delay 24
+	B_3,115,22
+	Delay 24
+	E_3,115,22
+	Delay 24
+	A_2,115,19
+	Delay 48
+	A_3,115,18
+	Delay 36
+	C#3,115,34
+	Delay 36
+	E_3,115,10
+	Delay 24
+	A_3,115,22
+	Delay 24
+	A_2,115,22
+	Delay 24
+	D_3,115,19
+	Delay 48
+	A_3,115,18
+	Delay 36
+	D_3,115,10
+	Delay 36
+	A_2,115,22
+	Delay 24
+	B_2,115,22
+	Delay 24
+	C#3,115,22
+	Delay 24
+	D_3,115,19
+	Delay 48
+	A_3,115,18
+	Delay 36
+	D#3,115,10
+	Delay 36
+	D#3,115,22
+	Delay 24
+	A_3,115,22
+	Delay 24
+	D#3,115,22
+	Delay 24
+	E_3,115,19
+	Delay 48
+	B_3,115,18
+	Delay 36
+	D_3,115,22
+	Delay 36
+	D_3,115,22
+	Delay 24
+	B_3,115,10
+	Delay 12
+	D_3,110,28
+	Delay 36
+	A_2,115,19
+	Delay 48
+	E_3,115,18
+	Delay 36
+	A#2,115,34
+	Delay 36
+	C#3,115,10
+	Delay 24
+	F#3,115,22
+	Delay 24
+	A#2,115,22
+	Delay 24
+	B_2,115,19
+	Delay 48
+	F#3,115,30
+	Delay 48
+	D_3,115,10
+	Delay 24
+	D_3,115,22
+	Delay 24
+	C_4,90,10
+	Delay 12
+	D_3,115,34
+	Delay 36
+	G_3,115,19
+	Delay 48
+	D_4,115,18
+	Delay 36
+	F#3,115,34
+	Delay 36
+	A_3,115,10
+	Delay 24
+	D_4,115,22
+	Delay 24
+	F#3,115,22
+	Delay 24
+	E_3,115,19
+	Delay 48
+	B_3,115,18
+	Delay 36
+	F_3,115,34
+	Delay 36
+	B_3,115,10
+	Delay 24
+	D_4,115,22
+	Delay 24
+	F_3,115,22
+	Delay 24
+	F#3,115,19
+	Delay 48
+	C#4,115,18
+	Delay 36
+	F#3,95,10
+	Delay 12
+	G_3,115,10
+	Delay 24
+	G_3,115,10
+	Delay 24
+	B_3,115,22
+	Delay 24
+	G_3,115,22
+	Delay 24
+	A_3,115,19
+	Delay 48
+	E_3,115,22
+	Delay 24
+	A_2,115,22
+	Delay 24
+	D_3,115,10
+	Delay 24
+	A_2,115,22
+	Delay 24
+	B_2,115,22
+	Delay 24
+	C#3,115,22
+	Delay 24
+	Jump Label_0x65951
+	TrackEnd
+
+Track_3:
+	Poly 0
+	Instrument 3
+	Volume 94
+	Pan 90
+	Priority 58
+	ModDepth 20
+	ModSpeed 16
+	ModType 1
+	ModRange 1
+	ModDelay 40
+Label_0x65B55:
+	D_5,105,94
+	Delay 1
+	F#5,85,94
+	A_5,110,94
+	Delay 119
+	B_4,100,8
+	Delay 1
+	D#5,78,8
+	F#5,80,8
+	A_5,97,8
+	Delay 35
+	B_4,105,32
+	Delay 1
+	D#5,85,32
+	F#5,85,32
+	A_5,95,32
+	Delay 35
+	B_4,105,94
+	Delay 1
+	D_5,85,94
+	E_5,88,94
+	G_5,110,94
+	Delay 119
+	D_6,107,1
+	Delay 2
+	D#6,103,3
+	Delay 4
+	E_6,117,17
+	Delay 18
+	B_5,85,10
+	D_6,103,10
+	Delay 12
+	G_5,85,34
+	B_5,104,34
+	Delay 36
+	C#5,105,94
+	E_5,82,94
+	G_5,85,94
+	A_5,110,94
+	Delay 120
+	A_4,105,11
+	B_4,82,11
+	C#5,85,11
+	E_5,110,11
+	Delay 36
+	C#5,105,34
+	E_5,85,34
+	A_5,110,34
+	Delay 36
+	A_4,105,129
+	Delay 1
+	D_5,85,129
+	Delay 1
+	F#5,110,129
+	Delay 129
+	D_5,105,94
+	Delay 1
+	E_5,82,94
+	F#5,85,94
+	Delay 1
+	A_5,110,94
+	Delay 118
+	B_4,105,11
+	D#5,85,11
+	F#5,82,11
+	A_5,110,11
+	Delay 36
+	A_4,85,34
+	B_4,105,34
+	D#5,85,34
+	F#5,110,34
+	Delay 36
+	B_4,105,106
+	Delay 1
+	D_5,85,107
+	E_5,85,107
+	Delay 1
+	G_5,110,107
+	Delay 118
+	F_6,96,1
+	Delay 2
+	F#6,92,3
+	Delay 4
+	G_6,102,16
+	Delay 17
+	B_5,104,9
+	Delay 1
+	G_5,95,9
+	Delay 11
+	D_6,105,34
+	Delay 1
+	B_5,95,34
+	Delay 36
+	E_5,105,94
+	Delay 1
+	G_5,82,94
+	A_5,85,94
+	C#6,110,94
+	Delay 119
+	A_4,105,11
+	B_4,80,11
+	C#5,85,11
+	E_5,110,11
+	Delay 36
+	C#5,105,34
+	E_5,85,34
+	A_5,110,34
+	Delay 36
+	A_4,105,95
+	Delay 1
+	D_5,85,95
+	Delay 1
+	F#5,110,95
+	Delay 129
+	D_5,110,94
+	E_5,87,94
+	F#5,90,94
+	A_5,125,94
+	Delay 120
+	B_4,110,11
+	D#5,90,11
+	F#5,118,11
+	Delay 36
+	D#5,110,34
+	F#5,90,34
+	A_5,123,34
+	Delay 36
+	D_5,110,94
+	E_5,87,94
+	G_5,90,94
+	B_5,119,94
+	Delay 119
+	B_5,68,4
+	Delay 2
+	D_6,116,2
+	Delay 1
+	D#6,125,4
+	Delay 3
+	E_6,125,14
+	Delay 19
+	D_6,106,11
+	Delay 12
+	B_5,111,34
+	Delay 36
+	E_5,110,113
+	G_5,87,113
+	A_5,90,113
+	C#6,115,113
+	Delay 120
+	A#4,110,11
+	C#5,90,11
+	E_5,87,11
+	F#5,97,11
+	Delay 36
+	C#5,110,34
+	E_5,85,34
+	F#5,90,34
+	A#5,97,34
+	Delay 36
+	D_5,110,94
+	F#5,90,94
+	A_5,87,94
+	B_5,121,94
+	Delay 119
+	B_5,68,1
+	Delay 1
+	C_5,110,11
+	A_5,90,11
+	Delay 2
+	C#6,99,2
+	Delay 3
+	D_6,115,29
+	Delay 31
+	C_5,110,36
+	F#5,90,34
+	A_5,87,34
+	F#6,111,34
+	Delay 36
+	D_5,110,94
+	F#5,90,94
+	A_5,87,94
+	D_6,112,94
+	Delay 120
+	D_5,110,9
+	F#5,90,9
+	B_5,106,9
+	Delay 36
+	D_5,110,34
+	F#5,90,34
+	A_5,102,34
+	Delay 36
+	D_5,110,94
+	E_5,87,94
+	G_5,90,94
+	B_5,119,94
+	Delay 120
+	D_5,110,11
+	F_5,87,11
+	G#5,90,11
+	B_5,108,11
+	Delay 36
+	F_5,110,34
+	G#5,87,34
+	B_5,90,34
+	D_6,116,34
+	Delay 36
+	E_5,110,94
+	F#5,85,94
+	A_5,90,94
+	C#6,121,94
+	Delay 120
+	D_5,90,11
+	E_5,110,11
+	G_5,90,11
+	B_5,102,11
+	Delay 36
+	B_4,110,34
+	D_5,100,34
+	E_5,105,34
+	G_5,90,34
+	G_5,123,34
+	Delay 36
+	D_5,105,46
+	E_5,90,94
+	F#5,85,94
+	A_5,104,94
+	Delay 48
+	C#5,105,46
+	Delay 48
+	D_5,105,94
+	F#5,90,94
+	A_5,102,94
+	Delay 96
+	Jump Label_0x65B55
+	TrackEnd
+
+Track_6:
+	Poly 0
+	Instrument 39
+	Volume 115
+	Pan 64
+	Priority 40
+Label_0x65DDC:
+	A#4,96,47
+	C_3,115,11
+	Delay 48
+	A#3,90,23
+	D#3,92,11
+	Delay 24
+	F#3,63,3
+	Delay 12
+	C_3,100,11
+	Delay 12
+	F#3,63,3
+	Delay 12
+	F#3,36,3
+	Delay 12
+	F#3,63,3
+	C_3,115,11
+	Delay 24
+	D#3,92,11
+	F#3,63,3
+	Delay 12
+	F#3,43,3
+	Delay 12
+	A#3,90,23
+	Delay 24
+	C_3,115,11
+	F#3,63,3
+	Delay 12
+	F#3,36,3
+	Delay 12
+	F#3,63,3
+	Delay 24
+	A#3,90,23
+	D#3,92,11
+	Delay 24
+	F#3,63,3
+	Delay 12
+	C_3,100,11
+	Delay 12
+	F#3,67,3
+	Delay 6
+	F#3,47,3
+	Delay 6
+	F#3,56,3
+	Delay 12
+	D#3,92,11
+	F#3,63,3
+	Delay 12
+	F#3,63,3
+	Delay 12
+	A#3,90,23
+	Delay 12
+	D#3,92,11
+	Delay 12
+	C_3,100,11
+	F#3,63,3
+	Delay 24
+	F#3,63,3
+	C_3,115,11
+	Delay 12
+	F#3,36,3
+	Delay 12
+	F#3,63,3
+	Delay 24
+	A#3,90,23
+	D#3,92,11
+	Delay 24
+	F#3,63,3
+	Delay 12
+	C_3,115,11
+	Delay 12
+	F#3,63,3
+	Delay 12
+	F#3,36,3
+	Delay 12
+	F#3,63,3
+	Delay 24
+	A#3,90,23
+	D#3,92,11
+	Delay 24
+	C_3,100,11
+	F#3,63,3
+	Delay 24
+	F#3,63,3
+	C_3,115,11
+	Delay 12
+	F#3,36,3
+	Delay 12
+	F#3,63,3
+	Delay 24
+	A#3,90,23
+	D#3,92,11
+	Delay 24
+	F#3,63,3
+	Delay 12
+	C_3,115,11
+	Delay 12
+	F#3,63,3
+	Delay 12
+	F#3,36,3
+	Delay 12
+	D#3,92,11
+	F#3,63,3
+	Delay 12
+	F#3,63,3
+	Delay 12
+	F#3,63,3
+	Delay 12
+	D#3,92,11
+	F#3,36,3
+	Delay 12
+	C_3,115,11
+	A#3,90,23
+	Delay 24
+	A_4,95,47
+	C_3,115,11
+	Delay 48
+	A#3,90,23
+	D#3,92,11
+	Delay 24
+	F#3,66,3
+	Delay 12
+	C_3,115,11
+	Delay 12
+	F#3,66,3
+	Delay 12
+	F#3,39,3
+	Delay 12
+	F#3,66,3
+	Delay 12
+	F#3,39,3
+	Delay 12
+	A#3,90,23
+	D#3,92,11
+	Delay 24
+	C_3,100,11
+	F#3,66,3
+	Delay 24
+	F#3,66,3
+	C_3,115,11
+	Delay 12
+	F#3,39,3
+	Delay 12
+	F#3,66,3
+	Delay 24
+	A#3,90,23
+	D#3,92,11
+	Delay 24
+	F#3,66,3
+	Delay 12
+	C_3,115,11
+	Delay 12
+	F#3,66,3
+	Delay 6
+	F#3,50,3
+	Delay 6
+	F#3,56,3
+	Delay 12
+	D#3,92,11
+	C_3,115,11
+	Delay 12
+	F#3,66,3
+	Delay 12
+	F#3,66,3
+	Delay 12
+	D#3,92,11
+	F#3,39,3
+	Delay 12
+	A#3,90,23
+	Delay 24
+	F#3,66,3
+	C_3,115,11
+	Delay 12
+	F#3,39,3
+	Delay 12
+	F#3,66,3
+	Delay 24
+	A#3,90,23
+	D#3,92,11
+	Delay 24
+	F#3,46,3
+	Delay 6
+	F#3,56,3
+	Delay 6
+	C_3,115,11
+	F#3,71,3
+	Delay 12
+	F#3,66,3
+	Delay 12
+	F#3,39,3
+	Delay 24
+	F#3,66,3
+	Delay 12
+	A#3,90,23
+	D#3,92,11
+	Delay 24
+	C_3,100,11
+	F#3,66,3
+	Delay 24
+	C_3,115,11
+	E_4,85,47
+	Delay 48
+	F#3,66,3
+	D#3,92,11
+	Delay 12
+	F#3,54,3
+	Delay 12
+	A#3,90,23
+	Delay 12
+	C_3,115,11
+	Delay 12
+	B_3,89,23
+	Delay 24
+	A_3,97,23
+	C_3,115,11
+	Delay 24
+	D#3,82,11
+	Delay 12
+	D#3,82,11
+	D_4,95,34
+	Delay 12
+	G_3,97,23
+	Delay 24
+	A_4,95,47
+	C_3,115,11
+	Delay 48
+	E_3,95,23
+	F#3,70,3
+	Delay 24
+	F#3,80,3
+	Delay 12
+	C_3,95,11
+	F#3,55,3
+	Delay 12
+	F#3,70,3
+	Delay 12
+	F#3,43,3
+	Delay 12
+	C_3,115,11
+	F#3,70,3
+	Delay 12
+	F#3,43,3
+	Delay 12
+	E_3,95,23
+	F#3,70,3
+	Delay 24
+	A#3,90,23
+	Delay 24
+	C_3,115,11
+	F#3,75,3
+	Delay 12
+	F#3,48,3
+	Delay 12
+	F#3,75,3
+	Delay 12
+	F#3,48,3
+	Delay 12
+	E_3,95,23
+	F#3,75,3
+	Delay 12
+	F#3,48,3
+	Delay 12
+	F#3,70,3
+	Delay 12
+	C_3,95,11
+	F#3,55,3
+	Delay 12
+	F#3,70,3
+	Delay 12
+	F#3,60,3
+	Delay 12
+	C_3,115,11
+	F#3,70,3
+	Delay 12
+	F#3,80,3
+	Delay 6
+	F#3,60,3
+	Delay 6
+	C_3,100,7
+	F#3,60,3
+	Delay 12
+	C_3,115,11
+	A#3,90,34
+	Delay 36
+	C_3,115,11
+	E_4,90,41
+	Delay 48
+	E_3,95,23
+	F#3,70,3
+	Delay 24
+	F#3,60,3
+	Delay 12
+	C_3,95,11
+	Delay 12
+	F#3,70,3
+	Delay 12
+	F#3,43,3
+	Delay 12
+	A#3,90,23
+	C_3,115,11
+	Delay 24
+	E_3,95,23
+	F#3,82,3
+	Delay 24
+	F#3,64,3
+	Delay 24
+	A_4,95,47
+	C_3,115,11
+	F#3,70,3
+	Delay 12
+	F#3,43,3
+	Delay 12
+	F#3,70,3
+	Delay 24
+	E_3,95,23
+	Delay 24
+	F#3,80,3
+	Delay 6
+	F#3,60,3
+	Delay 6
+	C_3,95,11
+	F#3,70,3
+	Delay 12
+	F#3,70,3
+	Delay 24
+	C_3,115,11
+	A_4,95,35
+	Delay 36
+	C_3,99,11
+	D_4,85,35
+	Delay 36
+	C_3,115,11
+	A_4,95,47
+	Delay 48
+	E_3,95,23
+	F#3,80,3
+	Delay 24
+	F#3,70,3
+	Delay 12
+	C_3,95,11
+	Delay 12
+	F#3,80,3
+	Delay 6
+	F#3,61,3
+	Delay 6
+	F#3,76,3
+	Delay 12
+	C_3,115,11
+	F#3,70,3
+	Delay 12
+	F#3,70,3
+	Delay 12
+	E_3,95,23
+	F#3,70,3
+	Delay 12
+	F#3,70,3
+	Delay 12
+	A#3,90,23
+	Delay 24
+	C_3,115,11
+	F#3,70,3
+	Delay 12
+	F#3,43,3
+	Delay 12
+	F#3,70,3
+	Delay 12
+	F#3,60,3
+	Delay 12
+	E_3,95,23
+	F#3,70,3
+	Delay 24
+	F#3,70,3
+	Delay 12
+	C_3,95,11
+	Delay 12
+	F#3,70,3
+	Delay 12
+	F#3,43,3
+	Delay 12
+	C_3,115,11
+	A#3,90,23
+	Delay 24
+	F#3,70,3
+	E_3,95,23
+	Delay 24
+	F#3,60,3
+	Delay 24
+	A_4,90,47
+	C_3,115,11
+	Delay 48
+	E_3,95,23
+	Delay 24
+	F#3,70,3
+	Delay 12
+	C_3,95,11
+	Delay 12
+	F#3,70,3
+	Delay 12
+	F#3,43,3
+	Delay 12
+	C_3,115,11
+	A#3,90,23
+	Delay 24
+	E_3,95,23
+	F#3,60,3
+	Delay 11
+	F#3,43,3
+	Delay 13
+	F#3,60,3
+	Delay 24
+	C_3,115,11
+	A_4,90,71
+	Delay 48
+	E_3,95,22
+	Delay 24
+	E_3,45,6
+	Delay 8
+	E_3,66,6
+	Delay 8
+	E_3,92,6
+	Delay 8
+	E_3,115,23
+	Delay 24
+	A_3,97,23
+	Delay 24
+	E_3,115,11
+	Delay 12
+	C_3,110,11
+	E_3,106,11
+	E_4,80,35
+	Delay 12
+	G_3,97,23
+	Delay 24
+	Jump Label_0x65DDC
+	TrackEnd
+
+Track_7:
+	Poly 0
+	Instrument 26
+	Volume 85
+	Pan 20
+	Priority 52
+Label_0x66245:
+	Delay 129
+	B_4,95,10
+	Delay 1
+	E_5,110,10
+	Delay 11
+	D_5,91,10
+	Delay 1
+	G_5,106,10
+	Delay 11
+	G_5,95,10
+	Delay 1
+	B_5,110,10
+	Delay 35
+	B_5,95,10
+	Delay 1
+	E_6,110,10
+	Delay 23
+	G_5,95,10
+	Delay 1
+	B_5,110,10
+	Delay 11
+	B_5,91,10
+	Delay 1
+	D_6,106,10
+	Delay 129
+	Call Label_0x662D5
+	Delay 129
+	B_4,95,10
+	Delay 1
+	E_5,110,10
+	Delay 11
+	D_5,91,10
+	Delay 1
+	G_5,106,10
+	Delay 11
+	G_5,95,10
+	Delay 1
+	B_5,110,10
+	Delay 35
+	E_6,95,10
+	Delay 1
+	G_6,110,10
+	Delay 23
+	G_5,95,10
+	Delay 1
+	B_5,110,10
+	Delay 11
+	B_5,91,10
+	Delay 1
+	D_6,106,10
+	Delay 129
+	Call Label_0x662D5
+	Delay 1548
+	Jump Label_0x66245
+	TrackEnd
+
+Label_0x662D5:
+	Delay 71
+	D_5,95,10
+	Delay 1
+	F#5,110,10
+	Delay 11
+	E_5,91,10
+	Delay 1
+	G_5,106,10
+	Delay 35
+	F#5,95,10
+	Delay 1
+	A_5,110,10
+	Delay 23
+	D_5,95,10
+	Delay 1
+	F#5,110,10
+	Delay 11
+	F#5,91,10
+	Delay 1
+	A_5,106,10
+	Delay 36
+	Return
+
+Track_8:
+	Poly 0
+	Instrument 23
+	Volume 104
+	Pan 64
+	Priority 50
+	Expression 120
+Label_0x66316:
+	Delay 1419
+	Expression 120
+	Delay 18
+	Volume 100
+	Delay 6
+	A_5,89,93
+	F#6,122,93
+	Delay 72
+	Expression 110
+	Delay 12
+	Expression 103
+	Delay 12
+	Expression 121
+	D#6,89,93
+	A_6,122,93
+	Delay 60
+	Expression 116
+	Delay 12
+	Expression 105
+	Delay 12
+	Expression 96
+	Delay 12
+	Expression 121
+	B_5,89,21
+	G_6,122,21
+	Delay 24
+	C#6,89,21
+	A_6,122,21
+	Delay 24
+	B_5,89,9
+	G_6,122,9
+	Delay 12
+	A_5,89,9
+	F#6,122,9
+	Delay 24
+	G_5,89,101
+	E_6,122,101
+	Delay 60
+	Expression 115
+	Delay 12
+	Expression 109
+	Delay 12
+	Expression 103
+	Delay 12
+	Expression 93
+	Delay 12
+	Expression 122
+	E_5,89,93
+	C#6,122,93
+	Delay 60
+	Expression 116
+	Delay 12
+	Expression 105
+	Delay 12
+	Expression 96
+	Delay 12
+	Expression 121
+	A#5,89,45
+	E_6,122,93
+	Delay 48
+	F#5,89,45
+	Delay 12
+	Expression 116
+	Delay 12
+	Expression 108
+	Delay 12
+	Expression 100
+	Delay 12
+	Expression 121
+	A_5,89,21
+	F#6,122,21
+	Delay 24
+	B_5,89,21
+	G_6,122,21
+	Delay 24
+	A_5,89,9
+	F#6,122,9
+	Delay 12
+	G_5,89,9
+	E_6,122,9
+	Delay 24
+	F#5,89,101
+	D_6,122,101
+	Delay 60
+	Expression 115
+	Delay 12
+	Expression 107
+	Delay 12
+	Expression 100
+	Delay 12
+	Expression 93
+	Delay 12
+	Expression 122
+	A_5,89,93
+	F#6,122,93
+	Delay 60
+	Expression 115
+	Delay 12
+	Expression 109
+	Delay 12
+	Expression 98
+	Delay 12
+	Expression 121
+	D_6,89,93
+	A_6,122,93
+	Delay 60
+	Expression 116
+	Delay 12
+	Expression 107
+	Delay 12
+	Expression 99
+	Delay 12
+	Expression 121
+	B_5,89,21
+	G_6,122,21
+	Delay 24
+	A_5,89,21
+	F#6,122,21
+	Delay 24
+	B_5,89,9
+	G_6,122,9
+	Delay 12
+	C#6,89,9
+	A_6,122,9
+	Delay 24
+	D_6,89,105
+	B_6,122,105
+	Delay 72
+	Expression 111
+	Delay 12
+	Expression 104
+	Delay 12
+	Expression 96
+	Delay 12
+	Expression 120
+	C#6,89,45
+	A_6,122,45
+	Delay 48
+	B_5,89,9
+	G_6,122,9
+	Delay 24
+	A_5,89,9
+	F#6,122,9
+	Delay 12
+	B_5,89,93
+	G_6,122,93
+	Delay 60
+	Expression 114
+	Delay 12
+	Expression 104
+	Delay 12
+	Expression 97
+	Delay 12
+	Expression 90
+	Delay 12
+	Expression 123
+	A_5,89,21
+	F#6,122,21
+	Delay 24
+	B_5,89,21
+	G_6,122,21
+	Delay 24
+	A_5,89,9
+	F#6,122,9
+	Delay 12
+	G_5,89,9
+	E_6,122,9
+	Delay 24
+	F#5,89,104
+	D_6,122,104
+	Delay 60
+	Expression 115
+	Delay 12
+	Expression 104
+	Delay 12
+	Expression 91
+	Delay 12
+	Expression 84
+	Expression 63
+	Delay 11
+	Expression 121
+	Delay 1
+	Jump Label_0x66316
+	TrackEnd
+
+Track_9:
+	Poly 0
+	Instrument 5
+	Volume 45
+	Pan 120
+	Priority 40
+Label_0x664CF:
+	Delay 24
+	D_6,115,21
+	Delay 24
+	A_5,110,9
+	Delay 24
+	D_6,110,9
+	Delay 24
+	A_6,110,12
+	Delay 48
+	G_6,113,45
+	Delay 48
+	F#6,110,9
+	Delay 24
+	E_6,110,21
+	Delay 24
+	C#6,110,18
+	Delay 129
+	Call Label_0x665E9
+	C#6,109,21
+	Delay 24
+	D_6,110,21
+	Delay 24
+	F#6,110,21
+	Delay 129
+	D_6,115,21
+	Delay 24
+	A_5,110,9
+	Delay 24
+	D_6,110,21
+	Delay 24
+	A_6,110,17
+	Delay 48
+	G_6,110,33
+	Delay 48
+	F#6,109,21
+	Delay 24
+	E_6,110,21
+	Delay 24
+	C#6,110,21
+	Delay 129
+	Call Label_0x665E9
+	C#6,109,21
+	Delay 24
+	D_6,110,69
+	Delay 129
+	Pan 20
+	Delay 25
+	F#6,115,81
+	Delay 96
+	A_6,117,82
+	Delay 96
+	G_6,115,22
+	Delay 24
+	A_6,110,22
+	Delay 24
+	G_6,108,10
+	Delay 12
+	F#6,103,10
+	Delay 24
+	E_6,115,83
+	Delay 108
+	C#6,115,82
+	Delay 96
+	E_6,118,82
+	Delay 96
+	F#6,115,22
+	Delay 24
+	G_6,114,22
+	Delay 24
+	F#6,110,10
+	Delay 12
+	E_6,106,10
+	Delay 24
+	D_6,117,94
+	Delay 108
+	F#6,115,94
+	Delay 96
+	A_6,113,82
+	Delay 96
+	G_6,115,22
+	Delay 24
+	F#6,112,22
+	Delay 24
+	G_6,113,10
+	Delay 12
+	A_6,109,10
+	Delay 24
+	B_6,115,82
+	Delay 108
+	A_6,115,46
+	Delay 48
+	G_6,115,10
+	Delay 24
+	F#6,115,10
+	Delay 12
+	G_6,115,94
+	Delay 108
+	F#6,115,22
+	Delay 24
+	G_6,111,22
+	Delay 24
+	F#6,113,10
+	Delay 12
+	E_6,109,10
+	Delay 24
+	D_6,117,82
+	Delay 83
+	Pan 20
+	Delay 1
+	Jump Label_0x664CF
+	TrackEnd
+
+Label_0x665E9:
+	Delay 24
+	C#6,115,21
+	Delay 24
+	A_5,110,9
+	Delay 24
+	C#6,110,21
+	Delay 24
+	F#6,110,21
+	Delay 48
+	E_6,110,21
+	Delay 48
+	Return
+
+Track_10:
+	Poly 0
+	Instrument 26
+	Volume 45
+	Pan 120
+	Priority 38
+Label_0x6660F:
+	Delay 258
+	E_5,110,10
+	Delay 12
+	G_5,110,10
+	Delay 12
+	B_5,110,10
+	Delay 36
+	E_6,110,10
+	Delay 24
+	B_5,110,10
+	Delay 12
+	D_6,110,10
+	Delay 129
+	Call Label_0x66663
+	Delay 258
+	E_5,110,10
+	Delay 12
+	G_5,110,10
+	Delay 12
+	B_5,110,10
+	Delay 36
+	G_6,110,10
+	Delay 24
+	B_5,110,10
+	Delay 12
+	D_6,110,10
+	Delay 129
+	Call Label_0x66663
+	Delay 1548
+	Jump Label_0x6660F
+	TrackEnd
+
+Label_0x66663:
+	Delay 84
+	F#5,110,10
+	Delay 12
+	G_5,110,10
+	Delay 36
+	A_5,110,10
+	Delay 24
+	F#5,110,10
+	Delay 12
+	A_5,110,10
+	Delay 24
+	Return
+
+	TrackEnd
+

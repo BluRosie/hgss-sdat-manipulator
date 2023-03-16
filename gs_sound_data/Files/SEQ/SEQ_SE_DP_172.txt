@@ -1,0 +1,112 @@
+Track_1:
+	Poly 0
+	Tempo 80
+	Instrument 70
+	Volume 127
+	A#6,127,6
+	Delay 6
+	C#7,115,5
+	Delay 6
+	G#6,122,4
+	Delay 6
+	C#7,105,5
+	Delay 6
+	F#6,113,4
+	Delay 6
+	C#7,92,5
+	Delay 6
+	E_6,98,4
+	Delay 6
+	C#7,92,5
+	Delay 6
+	E_7,45,5
+	Delay 6
+	F#7,79,5
+	Delay 6
+	E_6,30,4
+	Delay 6
+	F#7,65,5
+	Delay 6
+	E_6,31,4
+	Delay 6
+	F#7,53,5
+	Delay 6
+	E_6,28,5
+	Delay 6
+	F#7,47,5
+	Delay 6
+	E_6,26,5
+	Delay 6
+	F#7,38,5
+	Delay 6
+	E_6,20,5
+	Delay 6
+	F#7,22,5
+	Delay 6
+	E_6,15,5
+	Delay 6
+	F#7,15,5
+	Delay 6
+	E_6,9,5
+	Delay 6
+	F#7,9,5
+	Delay 5
+	TrackEnd
+
+Track_2:
+	Poly 0
+	Instrument 76
+	Volume 127
+	A#5,127,6
+	Delay 6
+	C#6,115,5
+	Delay 6
+	G#5,122,4
+	Delay 6
+	C#6,105,5
+	Delay 6
+	F#5,113,4
+	Delay 6
+	C#6,92,5
+	Delay 6
+	E_5,98,4
+	Delay 6
+	C#6,92,5
+	Delay 6
+	E_6,45,5
+	Delay 6
+	F#6,79,5
+	Delay 6
+	E_5,55,4
+	Delay 6
+	F#6,65,5
+	Delay 6
+	E_5,54,4
+	Delay 6
+	F#6,53,5
+	Delay 6
+	E_5,41,5
+	Delay 6
+	F#6,34,5
+	Delay 6
+	E_5,21,5
+	Delay 6
+	F#6,28,5
+	Delay 6
+	E_5,14,5
+	Delay 6
+	F#6,14,5
+	Delay 6
+	E_5,10,5
+	Delay 6
+	F#6,12,5
+	Delay 6
+	E_5,9,5
+	Delay 6
+	F#6,7,5
+	Delay 5
+	TrackEnd
+
+	TrackEnd
+
+	C_0,0,0

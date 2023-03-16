@@ -1,0 +1,117 @@
+Track_1:
+	Poly 0
+	Tempo 150
+	Instrument 72
+	Volume 127
+	Pan 64
+	PitchBendRange 24
+	PitchBend 246
+	C_5,110,12
+	Delay 2
+	PitchBend 20
+	Delay 2
+	PitchBend 75
+	Delay 3
+	PitchBend 111
+	Delay 5
+	PitchBend 246
+	Pan 55
+	C#5,96,12
+	Delay 2
+	PitchBend 20
+	Delay 2
+	PitchBend 75
+	Delay 3
+	PitchBend 111
+	Delay 5
+	PitchBend 246
+	Pan 71
+	D_5,78,12
+	Delay 2
+	PitchBend 20
+	Delay 2
+	PitchBend 75
+	Delay 3
+	PitchBend 111
+	Delay 5
+	PitchBend 246
+	Pan 50
+	D#5,59,12
+	Delay 2
+	PitchBend 20
+	Delay 2
+	PitchBend 75
+	Delay 3
+	PitchBend 111
+	Delay 5
+	PitchBend 246
+	Pan 78
+	E_5,40,12
+	Delay 2
+	PitchBend 20
+	Delay 2
+	PitchBend 75
+	Delay 3
+	PitchBend 111
+	Delay 5
+	TrackEnd
+
+Track_2:
+	Poly 0
+	Instrument 79
+	Volume 85
+	PitchBendRange 24
+	PitchBend 246
+	C_4,110,12
+	Delay 2
+	PitchBend 20
+	Delay 2
+	PitchBend 75
+	Delay 3
+	PitchBend 111
+	Delay 5
+	PitchBend 246
+	Pan 55
+	C#4,96,12
+	Delay 2
+	PitchBend 20
+	Delay 2
+	PitchBend 75
+	Delay 3
+	PitchBend 111
+	Delay 5
+	PitchBend 246
+	Pan 71
+	D_4,78,12
+	Delay 2
+	PitchBend 20
+	Delay 2
+	PitchBend 75
+	Delay 3
+	PitchBend 111
+	Delay 5
+	PitchBend 246
+	Pan 50
+	D#4,59,12
+	Delay 2
+	PitchBend 20
+	Delay 2
+	PitchBend 75
+	Delay 3
+	PitchBend 111
+	Delay 5
+	PitchBend 246
+	Pan 78
+	E_4,40,12
+	Delay 2
+	PitchBend 20
+	Delay 2
+	PitchBend 75
+	Delay 3
+	PitchBend 111
+	Delay 5
+	TrackEnd
+
+	TrackEnd
+
+	C_0,0,0

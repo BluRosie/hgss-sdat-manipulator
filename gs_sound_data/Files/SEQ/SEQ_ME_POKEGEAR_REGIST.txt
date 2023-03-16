@@ -1,0 +1,352 @@
+Track_1:
+	Poly 0
+	Tempo 152
+	Instrument 0
+	Volume 110
+	Pan 70
+	Expression 120
+	PitchBendRange 2
+	Priority 64
+	ModDepth 0
+	ModSpeed 16
+	ModType 0
+	ModRange 1
+	ModDelay 0
+	C_6,112,9
+	Delay 1
+	D#6,119,9
+	Delay 11
+	C_6,75,9
+	Delay 1
+	D#6,82,9
+	Delay 11
+	A#5,105,9
+	Delay 1
+	C#6,112,9
+	Delay 11
+	A#5,68,9
+	Delay 1
+	C#6,75,9
+	Delay 11
+	G#5,110,9
+	Delay 1
+	C_6,117,9
+	Delay 11
+	G#5,73,8
+	Delay 1
+	C_6,80,8
+	Delay 11
+	C_6,108,9
+	Delay 1
+	D#6,115,9
+	Delay 11
+	C_6,71,9
+	Delay 1
+	D#6,78,9
+	Delay 11
+	G#5,112,8
+	Delay 1
+	F_6,119,8
+	Delay 11
+	G#5,75,8
+	Delay 1
+	F_6,82,8
+	Delay 23
+	C_6,105,8
+	Delay 1
+	G#6,112,8
+	Delay 11
+	C_6,68,8
+	Delay 1
+	G#6,75,8
+	Delay 23
+	D#6,114,8
+	Delay 1
+	C_7,121,8
+	Delay 11
+	D#6,77,8
+	Delay 1
+	C_7,84,8
+	Delay 11
+	G_6,116,10
+	Delay 1
+	D#7,123,10
+	Delay 11
+	G_6,81,10
+	Delay 1
+	D#7,88,10
+	Delay 23
+	A#5,112,10
+	Delay 1
+	G_6,119,10
+	Delay 11
+	A#5,77,10
+	Delay 1
+	G_6,84,10
+	Delay 23
+	C_6,116,10
+	G#6,123,10
+	Delay 12
+	C_6,55,10
+	G#6,61,10
+	Delay 12
+	C_6,19,10
+	G#6,25,10
+	Delay 10
+	TrackEnd
+
+Track_3:
+	Poly 0
+	Instrument 22
+	Volume 110
+	Pan 64
+	Expression 110
+	PitchBendRange 2
+	Priority 62
+	ModDepth 0
+	ModSpeed 16
+	ModType 0
+	ModRange 1
+	ModDelay 0
+	G#3,118,10
+	Delay 24
+	C_4,107,4
+	Delay 12
+	D#4,113,4
+	Delay 12
+	G_3,114,10
+	Delay 24
+	C_4,107,4
+	Delay 12
+	D#4,113,4
+	Delay 12
+	F_3,121,10
+	Delay 12
+	F_3,114,3
+	Delay 24
+	F_3,109,3
+	Delay 12
+	D#3,114,10
+	Delay 24
+	C_3,108,10
+	Delay 24
+	D#3,120,11
+	Delay 36
+	D#3,114,11
+	Delay 36
+	G#3,121,11
+	Delay 11
+	TrackEnd
+
+Track_4:
+	Poly 0
+	Instrument 3
+	Volume 115
+	Pan 64
+	Expression 110
+	PitchBendRange 2
+	Priority 60
+	ModDepth 0
+	ModSpeed 16
+	ModType 0
+	ModRange 1
+	ModDelay 0
+	D#7,119,10
+	Delay 12
+	D#7,90,10
+	Delay 12
+	C#7,115,10
+	Delay 12
+	C#7,85,10
+	Delay 12
+	C_7,119,10
+	Delay 12
+	C_7,92,10
+	Delay 12
+	D#7,116,10
+	Delay 12
+	D#7,85,10
+	Delay 12
+	F_7,119,10
+	Delay 12
+	F_7,90,10
+	Delay 24
+	G#7,119,10
+	Delay 12
+	G#7,90,10
+	Delay 24
+	C_8,122,10
+	Delay 12
+	C_8,93,10
+	Delay 12
+	D#8,124,10
+	Delay 12
+	D#8,85,10
+	Delay 24
+	G_7,115,10
+	Delay 12
+	G_7,89,10
+	Delay 22
+	G#7,123,10
+	Delay 14
+	G#7,72,9
+	Delay 12
+	G#7,48,9
+	Delay 12
+	G#7,23,9
+	Delay 9
+	TrackEnd
+
+Track_5:
+	Poly 0
+	Instrument 39
+	Volume 100
+	Pan 64
+	Expression 110
+	PitchBendRange 2
+	Priority 58
+	ModDepth 0
+	ModSpeed 16
+	ModType 0
+	ModRange 1
+	ModDelay 0
+	C_3,120,11
+	F#4,98,9
+	Delay 24
+	F#4,91,9
+	Delay 12
+	F#4,78,9
+	Delay 12
+	D#3,120,21
+	F#4,83,3
+	Delay 6
+	F#4,69,3
+	Delay 6
+	F#4,76,3
+	Delay 6
+	F#4,59,3
+	Delay 6
+	C_3,100,11
+	F#4,66,3
+	Delay 6
+	F#4,51,3
+	Delay 6
+	F#4,58,3
+	Delay 6
+	F#4,41,3
+	Delay 6
+	C_3,120,11
+	Delay 12
+	D#3,110,21
+	F#4,83,9
+	Delay 24
+	F#4,91,9
+	Delay 11
+	D#3,122,21
+	Delay 25
+	D#3,113,21
+	F#4,78,9
+	Delay 24
+	C_3,120,11
+	A#3,105,21
+	Delay 24
+	F#3,60,1
+	Delay 12
+	C_3,110,11
+	A#3,100,21
+	Delay 24
+	F#3,60,1
+	Delay 12
+	C_3,120,11
+	D_4,112,23
+	Delay 23
+	TrackEnd
+
+Track_6:
+	Poly 0
+	Instrument 4
+	Volume 50
+	Pan 10
+	Expression 110
+	PitchBendRange 2
+	Priority 40
+	ModDepth 0
+	ModSpeed 16
+	ModType 0
+	ModRange 1
+	ModDelay 0
+	Delay 12
+	D#7,119,22
+	Delay 24
+	C#7,114,22
+	Delay 24
+	C_7,118,22
+	Delay 24
+	D#7,114,22
+	Delay 24
+	F_7,119,20
+	Delay 36
+	G#7,116,20
+	Delay 36
+	C_8,122,20
+	Delay 24
+	D#8,122,23
+	Delay 36
+	G_7,118,23
+	Delay 34
+	G#7,124,11
+	Delay 14
+	G#7,78,9
+	Delay 12
+	G#7,25,9
+	Delay 9
+	TrackEnd
+
+Track_7:
+	Poly 0
+	Instrument 23
+	Volume 95
+	Pan 20
+	Expression 110
+	PitchBendRange 2
+	Priority 54
+	ModDepth 0
+	ModSpeed 16
+	ModType 0
+	ModRange 1
+	ModDelay 0
+	G#5,110,5
+	D#6,118,5
+	Delay 48
+	C_6,105,5
+	G#6,113,5
+	Delay 48
+	D#6,110,5
+	C_7,118,5
+	Delay 24
+	G#5,90,3
+	F_6,98,3
+	Delay 12
+	C_6,110,5
+	G#6,118,5
+	Delay 24
+	D#5,90,3
+	C_6,98,3
+	Delay 12
+	C_6,110,5
+	G#6,118,5
+	Delay 24
+	D#6,110,5
+	A#6,118,5
+	Delay 36
+	D#6,100,5
+	C#7,108,5
+	Delay 36
+	D#6,107,5
+	C_7,115,5
+	Delay 5
+	TrackEnd
+
+	TrackEnd
+
+	C_0,0,0

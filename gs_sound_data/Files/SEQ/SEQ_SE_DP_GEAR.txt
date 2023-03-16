@@ -1,0 +1,24 @@
+Track_1:
+	Poly 0
+	Tempo 120
+	Instrument 74
+	Volume 127
+	PitchBend 190
+	PitchSweep 64960
+	G_5,117,24
+	Delay 4
+	PitchSweep 0
+	Delay 2
+	PitchBend 0
+	Delay 18
+	TrackEnd
+
+Track_2:
+	Poly 0
+	Instrument 87
+	G_6,80,6
+	Delay 6
+	TrackEnd
+
+	TrackEnd
+

@@ -1,0 +1,128 @@
+Track_1:
+	Poly 0
+	Tempo 150
+	Instrument 0
+	Volume 110
+	Pan 64
+	PitchBendRange 2
+	PitchBend 31
+	Delay 6
+	D_8,127,11
+	Delay 12
+	A_7,121,11
+	Delay 12
+	D_8,117,11
+	Delay 12
+	A_7,114,11
+	Delay 12
+	Pan 60
+	D_8,110,11
+	Delay 12
+	Pan 64
+	A_7,107,11
+	Delay 12
+	Pan 68
+	D_8,104,11
+	Delay 12
+	Pan 64
+	A_7,100,11
+	Delay 12
+	Pan 60
+	D_8,97,11
+	Delay 12
+	Pan 64
+	A_7,93,11
+	Delay 12
+	Pan 68
+	D_8,90,11
+	Delay 12
+	Pan 64
+	A_7,86,11
+	Delay 12
+	Pan 60
+	D_8,83,11
+	Delay 12
+	Pan 64
+	A_7,79,11
+	Delay 12
+	Pan 68
+	D_8,75,11
+	Delay 12
+	Pan 64
+	A_7,63,11
+	Delay 12
+	Pan 56
+	D_8,60,11
+	Delay 12
+	Pan 64
+	A_7,50,11
+	Delay 12
+	Pan 72
+	D_8,47,11
+	Delay 12
+	Pan 64
+	A_7,40,11
+	Delay 12
+	Pan 56
+	D_8,35,11
+	Delay 12
+	Pan 64
+	A_7,31,11
+	Delay 11
+	TrackEnd
+
+Track_2:
+	Poly 0
+	Instrument 51
+	Volume 50
+	Pan 64
+	PitchBend 31
+	E_8,121,11
+	Delay 12
+	B_7,119,11
+	Delay 12
+	E_8,116,11
+	Delay 12
+	B_7,112,11
+	Delay 12
+	E_8,109,11
+	Delay 12
+	B_7,105,11
+	Delay 12
+	E_8,102,11
+	Delay 12
+	B_7,98,11
+	Delay 12
+	E_8,95,11
+	Delay 12
+	B_7,91,11
+	Delay 12
+	E_8,88,11
+	Delay 12
+	B_7,83,11
+	Delay 12
+	E_8,81,11
+	Delay 12
+	B_7,78,11
+	Delay 12
+	E_8,73,11
+	Delay 12
+	B_7,58,11
+	Delay 12
+	E_8,49,11
+	Delay 12
+	B_7,45,11
+	Delay 12
+	E_8,42,11
+	Delay 12
+	B_7,38,11
+	Delay 12
+	E_8,33,11
+	Delay 12
+	B_7,30,11
+	Delay 11
+	TrackEnd
+
+	TrackEnd
+
+	C_0,0,0

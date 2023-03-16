@@ -1,0 +1,271 @@
+Track_1:
+	Poly 0
+	Tempo 143
+	Instrument 49
+	Volume 127
+	ModDepth 10
+	PitchBend 244
+	D#7,60,4
+	Delay 4
+	PitchBend 12
+	D#6,40,2
+	Delay 3
+	PitchBend 244
+	D#6,60,4
+	Delay 5
+	PitchBend 12
+	D#5,40,2
+	Delay 2
+	PitchBend 244
+	D#7,60,4
+	Delay 5
+	PitchBend 12
+	D#6,40,2
+	Delay 2
+	PitchBend 244
+	A#6,60,4
+	Delay 5
+	PitchBend 12
+	A#5,40,2
+	Delay 2
+	PitchBend 244
+	D#7,60,4
+	Delay 5
+	PitchBend 12
+	D#6,40,2
+	Delay 3
+	PitchBend 244
+	A#6,60,4
+	Delay 4
+	PitchBend 12
+	A#5,40,2
+	Delay 3
+	PitchBend 244
+	D#7,60,4
+	Delay 5
+	PitchBend 12
+	D#6,40,2
+	Delay 2
+	PitchBend 244
+	D#6,60,4
+	Delay 5
+	PitchBend 12
+	D#5,40,2
+	Delay 2
+	PitchBend 244
+	D#7,60,4
+	Delay 5
+	PitchBend 12
+	D#6,40,2
+	Delay 2
+	PitchBend 244
+	D#6,60,4
+	Delay 5
+	PitchBend 12
+	D#5,40,2
+	Delay 3
+	PitchBend 244
+	D#7,60,4
+	Delay 4
+	PitchBend 12
+	D#6,40,2
+	Delay 3
+	PitchBend 244
+	A#6,60,4
+	Delay 5
+	PitchBend 12
+	A#5,40,2
+	Delay 2
+	PitchBend 244
+	D#7,60,4
+	Delay 5
+	PitchBend 12
+	D#6,40,2
+	Delay 2
+	PitchBend 244
+	A#6,60,4
+	Delay 5
+	PitchBend 12
+	A#5,40,2
+	Delay 2
+	PitchBend 244
+	D#7,60,4
+	Delay 5
+	PitchBend 12
+	D#6,40,2
+	Delay 3
+	PitchBend 244
+	D#6,60,4
+	Delay 4
+	PitchBend 12
+	D#5,40,2
+	Delay 3
+	PitchBend 244
+	D#7,60,4
+	Delay 5
+	PitchBend 12
+	D#6,40,2
+	Delay 2
+	PitchBend 244
+	A#6,60,4
+	Delay 5
+	PitchBend 12
+	A#5,40,2
+	Delay 2
+	PitchBend 244
+	D#6,60,4
+	Delay 5
+	PitchBend 12
+	D#5,40,2
+	Delay 2
+	PitchBend 243
+	D#7,60,4
+	Delay 5
+	TrackEnd
+
+Track_2:
+	Poly 0
+	Instrument 3
+	Volume 68
+	PitchBend 241
+	Delay 2
+	D#8,60,4
+	Delay 2
+	PitchBend 9
+	Delay 3
+	PitchBend 241
+	D#7,40,2
+	Delay 2
+	D#7,60,4
+	Delay 3
+	PitchBend 9
+	Delay 2
+	PitchBend 241
+	D#6,40,2
+	Delay 2
+	D#8,60,4
+	Delay 3
+	PitchBend 9
+	Delay 2
+	PitchBend 241
+	D#7,40,2
+	Delay 3
+	A#7,60,4
+	Delay 2
+	PitchBend 9
+	Delay 2
+	PitchBend 241
+	A#6,40,2
+	Delay 3
+	D#8,60,4
+	Delay 2
+	PitchBend 9
+	Delay 3
+	PitchBend 241
+	D#7,40,2
+	Delay 2
+	A#7,60,4
+	Delay 2
+	PitchBend 9
+	Delay 3
+	PitchBend 241
+	A#6,40,2
+	Delay 2
+	D#8,60,4
+	Delay 3
+	PitchBend 9
+	Delay 2
+	PitchBend 241
+	D#7,40,2
+	Delay 2
+	D#7,60,4
+	Delay 3
+	PitchBend 9
+	Delay 2
+	PitchBend 241
+	D#6,40,2
+	Delay 3
+	D#8,60,4
+	Delay 2
+	PitchBend 9
+	Delay 2
+	PitchBend 241
+	D#7,40,2
+	Delay 3
+	D#7,60,4
+	Delay 2
+	PitchBend 9
+	Delay 3
+	PitchBend 241
+	D#6,40,2
+	Delay 2
+	D#8,60,4
+	Delay 2
+	PitchBend 9
+	Delay 3
+	PitchBend 241
+	D#7,40,2
+	Delay 2
+	A#7,60,4
+	Delay 3
+	PitchBend 9
+	Delay 2
+	PitchBend 241
+	A#6,40,2
+	Delay 2
+	D#8,60,4
+	Delay 3
+	PitchBend 9
+	Delay 2
+	PitchBend 241
+	D#7,40,2
+	Delay 3
+	A#7,60,4
+	Delay 2
+	PitchBend 9
+	Delay 2
+	PitchBend 241
+	A#6,40,2
+	Delay 3
+	D#8,60,4
+	Delay 2
+	PitchBend 9
+	Delay 3
+	PitchBend 241
+	D#7,40,2
+	Delay 2
+	D#7,60,4
+	Delay 2
+	PitchBend 9
+	Delay 3
+	PitchBend 241
+	D#6,40,2
+	Delay 2
+	D#8,60,4
+	Delay 3
+	PitchBend 9
+	Delay 2
+	PitchBend 241
+	D#7,40,2
+	Delay 2
+	A#7,60,4
+	Delay 3
+	PitchBend 9
+	Delay 2
+	PitchBend 241
+	A#6,40,2
+	Delay 3
+	D#7,60,4
+	Delay 2
+	PitchBend 9
+	Delay 2
+	PitchBend 240
+	D#6,40,2
+	Delay 3
+	D#8,60,4
+	Delay 5
+	TrackEnd
+
+	TrackEnd
+
+	C_0,0,0

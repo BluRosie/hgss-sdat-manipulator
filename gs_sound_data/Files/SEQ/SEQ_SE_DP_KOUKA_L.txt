@@ -1,0 +1,22 @@
+Track_1:
+	Poly 0
+	Tempo 89
+	Instrument 123
+	Volume 127
+	G_4,80,6
+	Delay 6
+	A#4,80,12
+	Delay 12
+	TrackEnd
+
+Track_2:
+	Poly 0
+	Instrument 73
+	Volume 127
+	A#3,127,18
+	Delay 18
+	TrackEnd
+
+	TrackEnd
+
+	C_0,0,0

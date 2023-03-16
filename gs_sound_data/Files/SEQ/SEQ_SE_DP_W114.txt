@@ -1,0 +1,192 @@
+Track_1:
+	Poly 0
+	Tempo 190
+	Instrument 89
+	Volume 12
+	Pan 17
+	PitchBendRange 8
+	PitchBend 2
+	ModDepth 30
+	A#4,127,387
+	Delay 7
+	Volume 32
+	Delay 5
+	Volume 41
+	Pan 19
+	Delay 4
+	Volume 51
+	Delay 5
+	Volume 61
+	Delay 3
+	Pan 21
+	Delay 4
+	Volume 68
+	Delay 5
+	Volume 73
+	Delay 3
+	Pan 23
+	Delay 2
+	Volume 86
+	Delay 5
+	Volume 92
+	Delay 5
+	Pan 25
+	Volume 100
+	Delay 4
+	Volume 106
+	Delay 8
+	Volume 113
+	Pan 27
+	Delay 7
+	Volume 121
+	Delay 5
+	Volume 127
+	Pan 29
+	Delay 4
+	Volume 127
+	Delay 8
+	Volume 127
+	Pan 32
+	Delay 12
+	Pan 36
+	Delay 12
+	Pan 39
+	Volume 123
+	Delay 9
+	Volume 121
+	Delay 3
+	Pan 41
+	Delay 7
+	Volume 117
+	Delay 5
+	Pan 44
+	Delay 7
+	Volume 112
+	Delay 5
+	Pan 47
+	Delay 4
+	Volume 106
+	Delay 8
+	Pan 51
+	Delay 7
+	Volume 102
+	Delay 5
+	Pan 54
+	Delay 7
+	Volume 94
+	Delay 5
+	Pan 57
+	Delay 9
+	Volume 87
+	Delay 3
+	Pan 61
+	Delay 4
+	Volume 86
+	Delay 5
+	Volume 88
+	Delay 3
+	Pan 64
+	Delay 2
+	Volume 92
+	Delay 5
+	Volume 96
+	Delay 7
+	Volume 100
+	Delay 5
+	Pan 66
+	Volume 105
+	Delay 5
+	Volume 110
+	Delay 7
+	Volume 114
+	Delay 5
+	Pan 71
+	Volume 118
+	Delay 4
+	Volume 121
+	Delay 8
+	Pan 74
+	Volume 127
+	Delay 12
+	Pan 78
+	Delay 12
+	Pan 80
+	Delay 4
+	Volume 123
+	Delay 8
+	Pan 83
+	Delay 2
+	Volume 116
+	Delay 10
+	Pan 86
+	Volume 109
+	Delay 12
+	Pan 89
+	Volume 102
+	Delay 9
+	Volume 96
+	Delay 3
+	Pan 91
+	Delay 12
+	Pan 93
+	Volume 87
+	Delay 12
+	Pan 96
+	Volume 90
+	Delay 12
+	Pan 98
+	Delay 2
+	Volume 79
+	Delay 10
+	Pan 102
+	Delay 2
+	Volume 70
+	Delay 10
+	Pan 105
+	Delay 2
+	Volume 48
+	Delay 10
+	Pan 108
+	Volume 38
+	Delay 7
+	Volume 29
+	Delay 5
+	Pan 111
+	Delay 2
+	Volume 15
+	Delay 7
+	Volume 8
+	Delay 3
+	TrackEnd
+
+Track_2:
+	Poly 0
+	Instrument 11
+	ModDepth 30
+	Volume 127
+	Pan 64
+	PitchBendRange 8
+	PitchBend 0
+	F_6,50,48
+	Delay 48
+	F#6,50,48
+	Delay 48
+	G_6,50,48
+	Delay 48
+	G#6,50,48
+	Delay 48
+	G_6,40,48
+	Delay 48
+	F#6,30,48
+	Delay 48
+	F_6,20,48
+	Delay 48
+	E_6,16,48
+	Delay 48
+	D#6,10,36
+	Delay 36
+	TrackEnd
+
+	TrackEnd
+
+	C_0,0,0

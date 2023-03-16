@@ -1,0 +1,78 @@
+Track_1:
+	Poly 0
+	Tempo 130
+	Instrument 61
+	Volume 127
+	Pan 75
+	ModDepth 10
+	Volume 127
+	Pan 34
+	G_7,127,12
+	Delay 12
+	E_7,127,12
+	Delay 12
+	F#7,127,6
+	Delay 5
+	F_7,127,12
+	Delay 13
+	F#7,127,5
+	Delay 6
+	G_7,127,12
+	Delay 12
+	E_7,127,12
+	Delay 12
+	F#7,127,6
+	Delay 6
+	F_7,127,12
+	Delay 12
+	F#7,127,6
+	Delay 6
+	G_7,127,12
+	Delay 12
+	E_7,127,12
+	Delay 12
+	G_7,127,12
+	Delay 12
+	E_7,40,12
+	Delay 12
+	TrackEnd
+
+Track_2:
+	Poly 0
+	Instrument 61
+	ModDepth 10
+	Volume 127
+	Pan 94
+	G_7,127,12
+	Delay 12
+	E_7,127,12
+	Delay 12
+	F#7,127,6
+	Delay 5
+	F_7,127,12
+	Delay 13
+	F#7,127,5
+	Delay 6
+	G_7,127,12
+	Delay 12
+	E_7,127,12
+	Delay 12
+	F#7,127,6
+	Delay 6
+	F_7,127,12
+	Delay 12
+	F#7,127,6
+	Delay 6
+	G_7,127,12
+	Delay 12
+	E_7,127,12
+	Delay 12
+	G_7,127,12
+	Delay 12
+	E_7,40,12
+	Delay 12
+	TrackEnd
+
+	TrackEnd
+
+	C_0,0,0

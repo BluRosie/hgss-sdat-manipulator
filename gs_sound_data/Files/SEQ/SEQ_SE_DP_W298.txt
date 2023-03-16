@@ -1,0 +1,80 @@
+Track_1:
+	Poly 0
+	Tempo 170
+	Instrument 10
+	Volume 127
+	Pan 64
+	PitchBend 249
+	G_6,100,5
+	Delay 12
+	Pan 80
+	G_6,55,5
+	Delay 6
+	Pan 64
+	A_7,100,5
+	Delay 12
+	Pan 49
+	A_7,55,5
+	Delay 6
+	Pan 64
+	C_8,100,5
+	Delay 12
+	Pan 80
+	C_8,55,5
+	Delay 6
+	Pan 64
+	G_6,70,5
+	Delay 12
+	Pan 48
+	G_6,25,5
+	Delay 6
+	Pan 64
+	A_7,70,5
+	Delay 12
+	Pan 80
+	A_7,25,5
+	Delay 6
+	Pan 64
+	C_8,70,5
+	Delay 12
+	Pan 48
+	C_8,25,5
+	Delay 5
+	TrackEnd
+
+Track_2:
+	Poly 0
+	Instrument 70
+	Volume 51
+	PitchBend 253
+	ModDepth 20
+	Delay 6
+	G_5,110,5
+	Delay 12
+	G_5,65,5
+	Delay 6
+	A_6,110,5
+	Delay 12
+	A_6,65,5
+	Delay 6
+	C_7,110,5
+	Delay 12
+	C_7,65,5
+	Delay 6
+	G_5,80,5
+	Delay 12
+	G_5,35,5
+	Delay 6
+	A_6,80,5
+	Delay 12
+	A_6,35,5
+	Delay 6
+	C_7,80,5
+	Delay 12
+	C_7,35,5
+	Delay 5
+	TrackEnd
+
+	TrackEnd
+
+	C_0,0,0

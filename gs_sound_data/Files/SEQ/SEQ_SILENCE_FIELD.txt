@@ -1,0 +1,56 @@
+Track_1:
+	Poly 0
+	Tempo 134
+	Instrument 81
+	Volume 127
+	TrackEnd
+
+Track_2:
+	Poly 0
+	Instrument 32
+	Volume 127
+	Pan 55
+	TrackEnd
+
+Track_3:
+	Poly 0
+	Instrument 82
+	Volume 127
+	Pan 112
+	TrackEnd
+
+Track_4:
+	Poly 0
+	Instrument 80
+	Volume 127
+	Pan 16
+	TrackEnd
+
+Track_5:
+	Poly 0
+	Instrument 0
+	Volume 127
+	TrackEnd
+
+Track_6:
+	Poly 0
+	Instrument 27
+	Volume 127
+	Pan 64
+	TrackEnd
+
+Track_7:
+	Poly 0
+	Instrument 28
+	Volume 127
+	Pan 64
+	TrackEnd
+
+Track_10:
+	Poly 0
+	Instrument 0
+	Volume 127
+	TrackEnd
+
+	TrackEnd
+

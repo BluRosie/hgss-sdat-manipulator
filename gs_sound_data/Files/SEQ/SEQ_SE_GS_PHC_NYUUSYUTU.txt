@@ -1,0 +1,104 @@
+Track_1:
+	Poly 0
+	Tempo 500
+	Instrument 73
+	Volume 125
+	Pan 64
+	Expression 125
+	PitchBendRange 12
+	Priority 64
+	ModDepth 0
+	ModSpeed 16
+	ModType 0
+	ModRange 1
+	ModDelay 0
+	PitchBend 0
+	PitchBend 128
+	G_6,124,22
+	PitchBend 136
+	Delay 1
+	PitchBend 140
+	PitchBend 142
+	Delay 1
+	PitchBend 144
+	PitchBend 148
+	Delay 1
+	PitchBend 154
+	PitchBend 158
+	Delay 1
+	PitchBend 162
+	PitchBend 164
+	Delay 1
+	PitchBend 168
+	PitchBend 172
+	Delay 1
+	PitchBend 174
+	PitchBend 180
+	Delay 1
+	PitchBend 182
+	PitchBend 186
+	Delay 1
+	PitchBend 188
+	PitchBend 190
+	Delay 1
+	PitchBend 192
+	PitchBend 194
+	Delay 1
+	PitchBend 196
+	PitchBend 200
+	Delay 1
+	PitchBend 202
+	PitchBend 204
+	Delay 1
+	PitchBend 208
+	PitchBend 210
+	Delay 1
+	PitchBend 212
+	Delay 1
+	PitchBend 214
+	PitchBend 216
+	Delay 1
+	PitchBend 220
+	PitchBend 226
+	Delay 1
+	PitchBend 228
+	PitchBend 232
+	Delay 1
+	PitchBend 238
+	PitchBend 240
+	Delay 1
+	PitchBend 242
+	Delay 1
+	PitchBend 244
+	PitchBend 246
+	Delay 1
+	PitchBend 248
+	Delay 1
+	PitchBend 250
+	PitchBend 252
+	Delay 1
+	PitchBend 254
+	Delay 3
+	PitchBend 0
+	TrackEnd
+
+Track_2:
+	Poly 0
+	Instrument 39
+	Volume 125
+	Pan 64
+	Expression 125
+	PitchBendRange 2
+	Priority 64
+	ModDepth 0
+	ModSpeed 16
+	ModType 0
+	ModRange 1
+	ModDelay 0
+	PitchBend 0
+	Pan 96
+	TrackEnd
+
+	TrackEnd
+
+	C_0,0,0

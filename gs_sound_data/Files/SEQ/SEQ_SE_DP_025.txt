@@ -1,0 +1,271 @@
+Track_1:
+	Poly 0
+	Tempo 150
+	Instrument 17
+	Volume 28
+	Pan 64
+	PitchBendRange 2
+	PitchBend 222
+	C_9,127,129
+	Delay 2
+	Volume 37
+	Pan 70
+	Delay 2
+	Volume 45
+	Pan 57
+	Delay 3
+	Volume 56
+	Pan 73
+	Delay 2
+	Volume 77
+	Pan 51
+	Delay 2
+	PitchBend 0
+	Delay 1
+	Volume 91
+	Pan 70
+	Delay 2
+	Volume 109
+	Pan 58
+	Delay 2
+	Volume 127
+	Pan 64
+	Delay 1
+	PitchBend 32
+	Delay 2
+	Pan 70
+	Delay 2
+	Pan 57
+	Delay 1
+	PitchBend 220
+	Delay 2
+	Pan 73
+	Delay 2
+	Pan 51
+	Delay 2
+	PitchBend 28
+	Pan 70
+	Delay 3
+	Pan 58
+	Delay 2
+	Pan 64
+	Delay 1
+	PitchBend 226
+	Delay 2
+	Pan 70
+	Delay 2
+	Pan 57
+	Delay 2
+	Pan 73
+	Delay 1
+	PitchBend 30
+	Delay 2
+	Pan 51
+	Delay 2
+	Pan 70
+	Delay 1
+	PitchBend 228
+	Delay 2
+	Pan 58
+	Delay 2
+	Pan 64
+	Delay 2
+	Pan 70
+	Delay 1
+	PitchBend 28
+	Delay 2
+	Pan 57
+	Delay 2
+	Pan 73
+	Delay 2
+	PitchBend 232
+	Delay 1
+	Pan 51
+	Delay 2
+	Pan 70
+	Delay 2
+	Pan 58
+	Delay 1
+	PitchBend 28
+	Delay 2
+	Pan 64
+	Delay 2
+	Pan 70
+	Delay 2
+	PitchBend 238
+	Delay 1
+	Pan 57
+	Delay 2
+	Pan 73
+	Delay 2
+	Pan 51
+	Delay 3
+	Pan 70
+	Delay 2
+	Pan 58
+	Delay 3
+	Pan 64
+	Delay 2
+	Pan 70
+	Delay 2
+	Pan 57
+	Delay 3
+	Pan 73
+	Delay 2
+	Pan 51
+	Delay 3
+	Pan 70
+	Delay 2
+	Pan 58
+	Delay 2
+	Pan 64
+	Delay 3
+	Pan 70
+	Delay 2
+	Pan 57
+	Delay 3
+	Pan 73
+	Delay 2
+	Pan 51
+	Delay 2
+	Pan 70
+	Delay 3
+	Pan 58
+	Delay 2
+	Pan 64
+	Delay 3
+	Pan 70
+	Delay 2
+	Pan 57
+	Delay 2
+	Pan 73
+	Delay 3
+	Pan 51
+	Delay 2
+	Pan 70
+	Delay 3
+	Pan 58
+	Delay 2
+	Pan 64
+	Delay 2
+	Pan 70
+	Delay 3
+	Volume 119
+	Pan 57
+	Delay 2
+	Volume 106
+	Pan 73
+	Delay 3
+	Volume 84
+	Pan 51
+	Delay 2
+	Volume 68
+	Pan 70
+	Delay 2
+	Volume 44
+	Pan 58
+	Delay 3
+	Volume 18
+	Pan 64
+	Delay 2
+	Volume 9
+	Pan 70
+	Delay 3
+	TrackEnd
+
+Track_2:
+	Poly 0
+	Instrument 17
+	Volume 70
+	C#10,127,6
+	Delay 6
+	D_10,127,6
+	Delay 6
+	D#10,127,6
+	Delay 12
+	G_10,127,6
+	Pan 90
+	Delay 5
+	Pan 38
+	Delay 1
+	D_10,127,6
+	Delay 5
+	Pan 90
+	Delay 1
+	G_10,127,6
+	Delay 6
+	Pan 38
+	D_10,127,6
+	Delay 6
+	G_10,127,6
+	Pan 90
+	Delay 6
+	D_10,127,6
+	Pan 38
+	Delay 5
+	Pan 90
+	Delay 1
+	G_10,127,6
+	Delay 6
+	Pan 38
+	D_10,127,6
+	Delay 5
+	Pan 90
+	Delay 1
+	G_10,127,6
+	Delay 5
+	Pan 38
+	Delay 1
+	D_10,127,6
+	Delay 5
+	Pan 90
+	Delay 1
+	G_10,127,6
+	Delay 6
+	Pan 38
+	Delay 1
+	D_10,127,6
+	Delay 4
+	Pan 90
+	Delay 1
+	G_10,121,6
+	Delay 6
+	D_10,111,6
+	Pan 38
+	Delay 5
+	Pan 90
+	Delay 1
+	G_10,100,6
+	Delay 5
+	Pan 38
+	Delay 2
+	D_10,88,6
+	Delay 4
+	Pan 90
+	Delay 1
+	G_10,71,6
+	Delay 5
+	Pan 38
+	Delay 1
+	D_10,53,6
+	Delay 5
+	Pan 90
+	Delay 1
+	G_10,35,6
+	Delay 5
+	Pan 38
+	Delay 1
+	D_10,27,6
+	Delay 6
+	Pan 74
+	G_10,18,6
+	Delay 4
+	Pan 54
+	Delay 2
+	D_10,9,6
+	Delay 6
+	TrackEnd
+
+	TrackEnd
+
+	C_0,0,0

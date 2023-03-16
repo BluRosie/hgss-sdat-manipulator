@@ -1,0 +1,248 @@
+Track_1:
+	Poly 0
+	Tempo 150
+	Instrument 70
+	Volume 127
+	Pan 64
+	PitchBend 6
+	C_8,85,12
+	Delay 2
+	PitchBend 241
+	Volume 118
+	Delay 2
+	PitchBend 222
+	Pan 69
+	Volume 76
+	Delay 3
+	PitchBend 188
+	Pan 58
+	Volume 33
+	Delay 2
+	PitchBend 167
+	Pan 64
+	Volume 16
+	Delay 3
+	PitchBend 0
+	Volume 127
+	C_8,83,12
+	Delay 2
+	PitchBend 235
+	Volume 118
+	Delay 2
+	PitchBend 216
+	Pan 69
+	Volume 76
+	Delay 3
+	PitchBend 182
+	Pan 58
+	Volume 33
+	Delay 2
+	PitchBend 162
+	Pan 64
+	Volume 16
+	Delay 3
+	PitchBend 254
+	Volume 127
+	C_8,73,12
+	Delay 2
+	PitchBend 234
+	Volume 118
+	Delay 2
+	PitchBend 215
+	Pan 69
+	Volume 76
+	Delay 3
+	PitchBend 180
+	Pan 58
+	Volume 33
+	Delay 2
+	PitchBend 160
+	Pan 64
+	Volume 16
+	Delay 3
+	PitchBend 254
+	Volume 127
+	C_8,63,12
+	Delay 2
+	PitchBend 234
+	Volume 118
+	Delay 2
+	PitchBend 215
+	Pan 69
+	Volume 76
+	Delay 3
+	PitchBend 180
+	Pan 58
+	Volume 33
+	Delay 2
+	PitchBend 160
+	Pan 64
+	Volume 16
+	Delay 3
+	PitchBend 253
+	Volume 127
+	C_8,53,12
+	Delay 2
+	PitchBend 233
+	Pan 69
+	Volume 118
+	Delay 2
+	PitchBend 213
+	Pan 58
+	Volume 76
+	Delay 3
+	PitchBend 179
+	Pan 72
+	Volume 33
+	Delay 2
+	PitchBend 159
+	Pan 54
+	Volume 16
+	Delay 3
+	PitchBend 253
+	Pan 64
+	Volume 127
+	C_8,43,12
+	Delay 2
+	PitchBend 233
+	Pan 69
+	Volume 118
+	Delay 2
+	PitchBend 213
+	Pan 58
+	Volume 76
+	Delay 3
+	PitchBend 179
+	Pan 72
+	Volume 33
+	Delay 2
+	PitchBend 159
+	Pan 54
+	Volume 16
+	Delay 3
+	PitchBend 252
+	Volume 127
+	C_8,33,12
+	Delay 2
+	PitchBend 231
+	Pan 69
+	Volume 118
+	Delay 2
+	PitchBend 212
+	Pan 58
+	Volume 76
+	Delay 3
+	PitchBend 178
+	Pan 72
+	Volume 33
+	Delay 2
+	PitchBend 158
+	Pan 54
+	Volume 16
+	Delay 3
+	PitchBend 252
+	Pan 64
+	Volume 127
+	C_8,25,12
+	Delay 2
+	PitchBend 231
+	Pan 69
+	Volume 118
+	Delay 2
+	PitchBend 212
+	Pan 58
+	Volume 76
+	Delay 3
+	PitchBend 178
+	Pan 72
+	Volume 33
+	Delay 2
+	PitchBend 158
+	Pan 54
+	Volume 16
+	Delay 3
+	TrackEnd
+
+Track_2:
+	Poly 0
+	Instrument 112
+	Volume 127
+	Pan 64
+	PitchBend 247
+	Delay 4
+	A_7,64,12
+	Delay 5
+	Volume 118
+	Delay 3
+	Volume 76
+	Delay 2
+	Volume 33
+	Delay 2
+	Volume 127
+	A_7,55,12
+	Delay 5
+	Volume 118
+	Delay 3
+	Volume 76
+	Delay 2
+	Volume 33
+	Delay 2
+	Volume 127
+	A_7,52,12
+	Delay 5
+	Volume 118
+	Delay 3
+	Volume 76
+	Delay 2
+	Volume 33
+	Delay 2
+	Volume 127
+	A_7,49,12
+	Delay 5
+	Volume 118
+	Delay 3
+	Volume 76
+	Delay 2
+	Volume 33
+	Delay 2
+	Volume 127
+	A_7,45,12
+	Delay 5
+	Volume 118
+	Delay 3
+	Volume 76
+	Delay 2
+	Volume 33
+	Delay 2
+	Volume 127
+	A_7,42,12
+	Delay 5
+	Volume 118
+	Delay 3
+	Volume 76
+	Delay 2
+	Volume 33
+	Delay 2
+	Volume 127
+	A_7,39,12
+	Delay 5
+	Volume 118
+	Delay 3
+	Volume 76
+	Delay 2
+	Volume 33
+	Delay 2
+	Volume 127
+	A_7,34,12
+	Delay 5
+	Volume 118
+	Delay 3
+	Volume 76
+	Delay 2
+	Volume 33
+	Delay 2
+	TrackEnd
+
+	TrackEnd
+
+	C_0,0,0

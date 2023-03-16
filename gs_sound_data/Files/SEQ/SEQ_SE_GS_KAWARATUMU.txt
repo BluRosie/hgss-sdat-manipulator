@@ -1,0 +1,29 @@
+Track_1:
+	Poly 0
+	Tempo 500
+	Instrument 88
+	Expression 125
+	Volume 125
+	Pan 64
+	PitchBend 0
+	Volume 125
+	Volume 125
+	C_3,127,48
+	Delay 48
+	TrackEnd
+
+Track_2:
+	Poly 0
+	Instrument 84
+	Expression 125
+	PitchBend 0
+	Volume 125
+	Pan 64
+	Volume 125
+	Pan 64
+	C_4,127,72
+	Delay 72
+	TrackEnd
+
+	TrackEnd
+

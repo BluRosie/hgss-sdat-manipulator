@@ -1,0 +1,1475 @@
+Track_1:
+	Poly 0
+	Tempo 132
+	Instrument 9
+	Volume 105
+	Pan 64
+	Expression 110
+	PitchBendRange 2
+	Priority 60
+	ModDepth 0
+	ModSpeed 16
+	ModType 0
+	ModRange 1
+	ModDelay 0
+	G_5,100,10
+	Delay 72
+	G_5,100,10
+	Delay 12
+	G_5,100,10
+	Delay 12
+	G_5,100,10
+	Delay 24
+	G_5,100,10
+	Delay 24
+	G_5,100,10
+	Delay 48
+	G_5,100,10
+	Delay 72
+	G_5,100,10
+	Delay 12
+	G_5,100,10
+	Delay 12
+	G_5,100,10
+	Delay 24
+	G_5,100,10
+	Delay 24
+	D_5,100,10
+	Delay 12
+	E_5,100,10
+	Delay 12
+	F_5,100,10
+	Delay 12
+	F#5,100,10
+	Delay 12
+	G_5,100,106
+	Delay 60
+	Expression 102
+	Delay 12
+	Expression 93
+	Delay 12
+	Expression 80
+	Delay 12
+	Expression 63
+	Delay 23
+	Expression 110
+	Delay 1
+	D_6,100,22
+	Delay 24
+	B_5,100,22
+	Delay 24
+	G_5,100,22
+	Delay 24
+	F_6,100,106
+	Delay 48
+	Expression 107
+	Delay 12
+	Expression 102
+	Delay 12
+	Expression 97
+	Delay 12
+	Expression 88
+	Delay 12
+	Expression 77
+	Delay 23
+	Expression 110
+	Delay 1
+	E_6,100,22
+	Delay 24
+	D_6,100,22
+	Delay 24
+	C_6,100,22
+	Delay 24
+	Call Label_0x1324E8
+	Expression 80
+	Delay 12
+	Expression 84
+	Delay 12
+	Expression 88
+	Delay 12
+	Expression 95
+	Delay 12
+	Expression 99
+	Delay 12
+	Expression 104
+	Delay 12
+	Expression 108
+	Delay 12
+	Expression 111
+	Delay 12
+	Expression 114
+	Delay 48
+	Expression 105
+	Delay 12
+	Expression 89
+	Delay 12
+	Expression 78
+	Delay 12
+	Expression 68
+	Delay 12
+Label_0x1321E6:
+	Expression 110
+	C_6,100,106
+	Delay 60
+	Expression 102
+	Delay 12
+	Expression 91
+	Delay 12
+	Expression 82
+	Delay 12
+	Expression 72
+	Delay 12
+	Expression 59
+	Delay 11
+	Expression 110
+	Delay 1
+	C_6,100,22
+	Delay 24
+	A_5,100,22
+	Delay 24
+	F_5,100,22
+	Delay 24
+	F_6,100,110
+	Delay 60
+	Expression 101
+	Delay 12
+	Expression 96
+	Delay 12
+	Expression 87
+	Delay 12
+	Expression 77
+	Delay 12
+	Expression 68
+	Delay 12
+	Expression 110
+	E_6,100,22
+	Delay 24
+	D_6,100,22
+	Delay 24
+	C_6,100,22
+	Delay 24
+	B_5,100,64
+	Delay 36
+	Expression 105
+	Delay 6
+	Expression 101
+	Delay 6
+	Expression 97
+	Delay 6
+	Expression 90
+	Delay 6
+	Expression 81
+	Delay 6
+	Expression 58
+	Delay 6
+	Expression 110
+	G_5,100,22
+	Delay 24
+	D_6,100,89
+	Delay 48
+	Expression 104
+	Delay 6
+	Expression 100
+	Delay 6
+	Expression 94
+	Delay 6
+	Expression 90
+	Delay 6
+	Expression 78
+	Delay 6
+	Expression 68
+	Delay 6
+	Expression 53
+	Delay 11
+	Expression 110
+	Delay 1
+	G_5,100,69
+	Delay 42
+	Expression 107
+	Delay 6
+	Expression 99
+	Delay 6
+	Expression 88
+	Delay 6
+	Expression 80
+	Delay 6
+	Expression 65
+	Delay 5
+	Expression 103
+	Expression 110
+	Delay 1
+	D_5,100,21
+	Delay 24
+	B_5,100,92
+	Delay 54
+	Expression 107
+	Delay 6
+	Expression 101
+	Delay 6
+	Expression 97
+	Delay 6
+	Expression 88
+	Delay 6
+	Expression 79
+	Delay 6
+	Expression 68
+	Delay 6
+	Expression 58
+	Delay 5
+	Expression 110
+	Delay 1
+	F_5,100,22
+	Delay 24
+	A_5,100,46
+	Delay 48
+	B_5,100,46
+	Delay 48
+	C_6,100,46
+	Delay 48
+	D_6,100,22
+	Delay 24
+	F_6,100,90
+	Delay 48
+	Expression 107
+	Delay 6
+	Expression 102
+	Delay 6
+	Expression 98
+	Delay 6
+	Expression 91
+	Delay 6
+	Expression 87
+	Delay 6
+	Expression 78
+	Delay 6
+	Expression 70
+	Delay 11
+	Expression 103
+	Expression 110
+	Delay 1
+	A_6,100,91
+	Delay 48
+	Expression 104
+	Delay 6
+	Expression 99
+	Delay 6
+	Expression 95
+	Delay 6
+	Expression 90
+	Delay 6
+	Expression 83
+	Delay 6
+	Expression 77
+	Delay 6
+	Expression 67
+	Delay 11
+	Expression 110
+	Delay 1
+	G_6,100,22
+	Delay 24
+	D_6,100,129
+	Delay 72
+	Expression 107
+	Delay 6
+	Expression 104
+	Delay 6
+	Expression 101
+	Delay 6
+	Expression 96
+	Delay 6
+	Expression 93
+	Delay 6
+	Expression 91
+	Delay 6
+	Expression 87
+	Delay 6
+	Expression 84
+	Delay 6
+	Expression 80
+	Delay 6
+	Expression 76
+	Delay 6
+	Expression 69
+	Delay 6
+	Expression 61
+	Delay 6
+	Expression 53
+	Delay 23
+	Expression 110
+	Delay 1
+	C_6,100,46
+	Delay 48
+	B_5,100,46
+	Delay 48
+	A_5,100,46
+	Delay 48
+	G_5,100,46
+	Delay 48
+	A_5,100,46
+	Delay 48
+	B_5,100,46
+	Delay 48
+	C_6,100,46
+	Delay 48
+	D_6,100,46
+	Delay 48
+	F_6,100,91
+	Delay 48
+	Expression 107
+	Delay 6
+	Expression 103
+	Delay 6
+	Expression 98
+	Delay 6
+	Expression 95
+	Delay 6
+	Expression 88
+	Delay 6
+	Expression 79
+	Delay 6
+	Expression 71
+	Delay 11
+	Expression 110
+	Delay 1
+	C_7,100,91
+	Delay 54
+	Expression 107
+	Delay 6
+	Expression 101
+	Delay 6
+	Expression 95
+	Delay 6
+	Expression 88
+	Delay 6
+	Expression 80
+	Delay 6
+	Expression 77
+	Delay 12
+	Expression 110
+	B_6,100,22
+	Delay 24
+	G_6,100,129
+	Delay 96
+	Expression 107
+	Delay 6
+	Expression 101
+	Delay 6
+	Expression 97
+	Delay 6
+	Expression 92
+	Delay 6
+	Expression 89
+	Delay 6
+	Expression 84
+	Delay 6
+	Expression 79
+	Delay 6
+	Expression 73
+	Delay 6
+	Expression 67
+	Delay 6
+	Expression 63
+	Delay 18
+	Expression 110
+	B_6,100,22
+	Delay 24
+	G_6,100,129
+	Delay 72
+	Expression 107
+	Delay 6
+	Expression 101
+	Delay 6
+	Expression 97
+	Delay 6
+	Expression 92
+	Delay 6
+	Expression 89
+	Delay 6
+	Expression 84
+	Delay 6
+	Expression 79
+	Delay 6
+	Expression 73
+	Delay 6
+	Expression 67
+	Delay 6
+	Expression 63
+	Delay 18
+	Expression 110
+	D_6,100,22
+	Delay 24
+	D_6,100,106
+	Delay 60
+	Expression 102
+	Delay 12
+	Expression 93
+	Delay 12
+	Expression 80
+	Delay 12
+	Expression 63
+	Delay 23
+	Expression 110
+	Delay 1
+	D_6,100,22
+	Delay 24
+	B_5,100,22
+	Delay 24
+	G_5,100,22
+	Delay 24
+	F_6,100,112
+	Delay 48
+	Expression 107
+	Delay 12
+	Expression 102
+	Delay 12
+	Expression 97
+	Delay 12
+	Expression 88
+	Delay 12
+	Expression 77
+	Delay 23
+	Expression 110
+	Delay 1
+	E_6,100,22
+	Delay 24
+	D_6,100,22
+	Delay 24
+	C_6,100,22
+	Delay 24
+	Call Label_0x1324E8
+	Expression 80
+	Delay 12
+	Expression 84
+	Delay 12
+	Expression 88
+	Delay 12
+	Expression 95
+	Delay 12
+	Expression 99
+	Delay 12
+	Expression 104
+	Delay 12
+	Expression 108
+	Delay 12
+	Expression 111
+	Delay 12
+	Expression 114
+	Delay 48
+	Expression 105
+	Delay 12
+	Expression 89
+	Delay 12
+	Expression 78
+	Delay 12
+	Expression 68
+	Delay 11
+	Expression 110
+	Delay 1
+	Jump Label_0x1321E6
+	TrackEnd
+
+Label_0x1324E8:
+	D_6,100,10
+	Delay 12
+	E_6,100,10
+	Delay 12
+	D_6,100,10
+	Delay 12
+	E_6,100,10
+	Delay 12
+	D_6,100,258
+	Delay 60
+	Expression 104
+	Delay 12
+	Expression 98
+	Delay 12
+	Expression 95
+	Delay 12
+	Expression 89
+	Delay 12
+	Expression 81
+	Delay 12
+	Expression 68
+	Delay 12
+	Expression 72
+	Delay 12
+	Return
+
+Track_2:
+	Poly 0
+	Instrument 9
+	Volume 95
+	Pan 64
+	Expression 110
+	PitchBendRange 2
+	Priority 50
+	ModDepth 0
+	ModSpeed 16
+	ModType 0
+	ModRange 1
+	ModDelay 0
+	D_5,100,10
+	Delay 72
+	D_5,100,10
+	Delay 12
+	D_5,100,10
+	Delay 12
+	D_5,100,10
+	Delay 24
+	D_5,100,10
+	Delay 24
+	D_5,100,10
+	Delay 48
+	D_5,100,10
+	Delay 72
+	D_5,100,10
+	Delay 12
+	D_5,100,10
+	Delay 12
+	D_5,100,10
+	Delay 24
+	D_5,100,10
+	Delay 24
+	C_5,100,46
+	Delay 48
+	D_5,100,70
+	Delay 72
+	B_4,100,22
+	Delay 24
+	F_5,100,22
+	Delay 24
+	E_5,100,22
+	Delay 24
+	D_5,100,22
+	Delay 24
+	E_5,100,22
+	Delay 24
+	Call Label_0x132854
+	Call Label_0x132873
+	B_5,100,10
+	Delay 12
+	C_6,100,10
+	Delay 12
+	B_5,100,10
+	Delay 12
+	C_6,100,10
+	Delay 12
+	B_5,100,129
+	Delay 90
+	Expression 108
+	Delay 5
+	Expression 104
+	Delay 4
+	Expression 100
+	Delay 5
+	Expression 96
+	Delay 5
+	Expression 92
+	Delay 4
+	Expression 88
+	Delay 5
+	Expression 84
+	Delay 6
+	Expression 80
+	Delay 4
+	Expression 76
+	Delay 4
+	Expression 71
+	Delay 12
+Label_0x1325DC:
+	Expression 110
+	F_5,100,70
+	Delay 72
+	C_5,100,22
+	Delay 24
+	A_5,100,22
+	Delay 24
+	G_5,100,22
+	Delay 24
+	F_5,100,22
+	Delay 24
+	C_5,100,22
+	Delay 24
+	D_6,100,22
+	Delay 24
+	C_6,100,22
+	Delay 24
+	B_5,100,22
+	Delay 24
+	A_5,100,22
+	Delay 24
+	C_6,100,22
+	Delay 24
+	B_5,100,22
+	Delay 24
+	A_5,100,22
+	Delay 24
+	G_5,100,22
+	Delay 24
+	D_5,100,10
+	Delay 12
+	E_5,100,10
+	Delay 12
+	D_5,100,10
+	Delay 12
+	E_5,100,10
+	Delay 12
+	D_5,100,46
+	Delay 48
+	G_5,100,46
+	Delay 48
+	D_5,100,46
+	Delay 48
+	B_4,100,10
+	Delay 12
+	C_5,100,10
+	Delay 12
+	B_4,100,10
+	Delay 12
+	C_5,100,10
+	Delay 12
+	B_4,100,46
+	Delay 48
+	D_5,100,46
+	Delay 48
+	B_4,100,46
+	Delay 48
+	C_5,100,22
+	Delay 24
+	E_5,100,22
+	Delay 24
+	D_5,100,22
+	Delay 24
+	C_5,100,22
+	Delay 24
+	A_5,100,22
+	Delay 24
+	G_5,100,22
+	Delay 24
+	F_5,100,22
+	Delay 24
+	E_5,100,22
+	Delay 24
+	A_5,100,46
+	Delay 48
+	B_5,100,46
+	Delay 48
+	C_6,100,46
+	Delay 48
+	E_6,100,46
+	Delay 48
+	D_6,100,22
+	Delay 24
+	G_5,100,129
+	Delay 119
+	Expression 110
+	Delay 3
+	Expression 108
+	Delay 2
+	Expression 106
+	Delay 3
+	Expression 104
+	Delay 2
+	Expression 102
+	Delay 2
+	Expression 100
+	Delay 3
+	Expression 98
+	Delay 2
+	Expression 96
+	Delay 2
+	Expression 94
+	Delay 2
+	Expression 92
+	Delay 3
+	Expression 90
+	Delay 2
+	Expression 88
+	Delay 2
+	Expression 86
+	Delay 3
+	Expression 84
+	Delay 2
+	Expression 82
+	Delay 3
+	Expression 80
+	Delay 3
+	Expression 78
+	Delay 2
+	Expression 76
+	Delay 7
+	Expression 110
+	Delay 1
+	G_5,100,46
+	Delay 48
+	D_5,100,129
+	Delay 102
+	Expression 107
+	Delay 6
+	Expression 103
+	Delay 6
+	Expression 94
+	Delay 6
+	Expression 86
+	Delay 6
+	Expression 77
+	Delay 6
+	Expression 69
+	Delay 6
+	Expression 61
+	Delay 5
+	Expression 110
+	Delay 1
+	F_5,100,22
+	Delay 24
+	E_5,100,22
+	Delay 24
+	D_5,100,22
+	Delay 24
+	C_5,100,22
+	Delay 24
+	A_5,100,22
+	Delay 24
+	G_5,100,22
+	Delay 24
+	F_5,100,22
+	Delay 24
+	G_5,100,22
+	Delay 24
+	C_6,100,22
+	Delay 24
+	B_5,100,22
+	Delay 24
+	A_5,100,22
+	Delay 24
+	B_5,100,22
+	Delay 24
+	B_5,100,22
+	Delay 24
+	E_6,100,22
+	Delay 24
+	F_6,100,22
+	Delay 24
+	A_6,100,22
+	Delay 24
+	G_5,100,22
+	Delay 24
+	C_6,100,22
+	Delay 24
+	D_6,100,22
+	Delay 24
+	G_5,100,22
+	Delay 24
+	C_6,100,22
+	Delay 24
+	D_6,100,22
+	Delay 24
+	G_5,100,22
+	Delay 24
+	D_6,100,22
+	Delay 24
+	B_5,100,22
+	Delay 24
+	D_6,100,22
+	Delay 24
+	B_5,100,22
+	Delay 24
+	D_6,100,46
+	Delay 48
+	G_5,100,22
+	Delay 24
+	B_5,100,22
+	Delay 24
+	F#5,100,22
+	Delay 24
+	G_5,100,70
+	Delay 72
+	B_4,100,22
+	Delay 24
+	F_5,100,22
+	Delay 24
+	E_5,100,22
+	Delay 24
+	D_5,100,22
+	Delay 24
+	E_5,100,22
+	Delay 24
+	Call Label_0x132854
+	Call Label_0x132873
+	B_5,100,10
+	Delay 12
+	C_6,100,10
+	Delay 12
+	B_5,100,10
+	Delay 12
+	C_6,100,10
+	Delay 12
+	B_5,100,129
+	Delay 87
+	Expression 110
+	Delay 3
+	Expression 108
+	Delay 2
+	Expression 106
+	Delay 3
+	Expression 104
+	Delay 2
+	Expression 102
+	Delay 2
+	Expression 100
+	Delay 3
+	Expression 98
+	Delay 2
+	Expression 96
+	Delay 2
+	Expression 94
+	Delay 3
+	Expression 92
+	Delay 2
+	Expression 90
+	Delay 2
+	Expression 88
+	Delay 2
+	Expression 86
+	Delay 3
+	Expression 84
+	Delay 2
+	Expression 82
+	Delay 4
+	Expression 80
+	Delay 2
+	Expression 78
+	Delay 2
+	Expression 76
+	Delay 15
+	Expression 110
+	Delay 1
+	Jump Label_0x1325DC
+	TrackEnd
+
+Label_0x132854:
+	F_5,100,70
+	Delay 72
+	C_5,100,22
+	Delay 24
+	A_5,100,22
+	Delay 24
+	G_5,100,22
+	Delay 24
+	F_5,100,22
+	Delay 24
+	C_5,100,22
+	Delay 24
+	Return
+
+Label_0x132873:
+	D_5,100,22
+	Delay 24
+	G_5,100,22
+	Delay 24
+	A_5,100,22
+	Delay 24
+	G_5,100,22
+	Delay 24
+	F_5,100,22
+	Delay 24
+	E_5,100,22
+	Delay 24
+	D_5,100,22
+	Delay 24
+	E_5,100,22
+	Delay 24
+	Return
+
+Track_3:
+	Poly 0
+	Instrument 2
+	Volume 85
+	Pan 64
+	Expression 110
+	PitchBendRange 2
+	Priority 40
+	ModDepth 0
+	ModSpeed 16
+	ModType 0
+	ModRange 1
+	ModDelay 0
+	G_3,100,10
+	Delay 72
+	G_3,100,10
+	Delay 12
+	G_3,100,10
+	Delay 12
+	G_3,100,10
+	Delay 24
+	G_3,100,10
+	Delay 24
+	G_3,100,10
+	Delay 47
+	G_3,100,10
+	Delay 73
+	G_3,100,10
+	Delay 12
+	G_3,100,10
+	Delay 12
+	G_3,100,10
+	Delay 24
+	G_3,100,10
+	Delay 24
+	G_3,100,10
+	Delay 24
+	G_3,100,10
+	Delay 24
+	Call Label_0x132A89
+	Call Label_0x132AB2
+	Call Label_0x132AE0
+	Call Label_0x132B0E
+Label_0x132906:
+	F_3,100,10
+	Delay 24
+	C_4,100,22
+	Delay 24
+	A_3,100,22
+	Delay 24
+	F_3,100,10
+	Delay 12
+	F_3,100,10
+	Delay 12
+	F_3,100,10
+	Delay 24
+	C_4,100,22
+	Delay 24
+	F_3,100,10
+	Delay 24
+	F_3,100,10
+	Delay 24
+	F_3,100,10
+	Delay 24
+	C_4,100,22
+	Delay 24
+	F_4,100,22
+	Delay 24
+	F_3,100,10
+	Delay 12
+	F_3,100,10
+	Delay 12
+	F_3,100,10
+	Delay 24
+	E_4,100,22
+	Delay 24
+	F_3,100,22
+	Delay 24
+	F#3,100,22
+	Delay 24
+	G_3,100,10
+	Delay 24
+	B_3,100,22
+	Delay 24
+	G_4,100,22
+	Delay 24
+	G_3,100,10
+	Delay 12
+	G_3,100,10
+	Delay 12
+	G_3,100,10
+	Delay 24
+	B_3,100,22
+	Delay 24
+	G_3,100,10
+	Delay 24
+	G_3,100,10
+	Delay 24
+	G_3,100,10
+	Delay 72
+	G_3,100,10
+	Delay 12
+	G_3,100,10
+	Delay 12
+	G_3,100,10
+	Delay 24
+	G_4,100,22
+	Delay 24
+	G_3,100,22
+	Delay 24
+	G#3,100,22
+	Delay 24
+	Call Label_0x132B3C
+	Call Label_0x132B6A
+	B_3,100,10
+	Delay 24
+	E_4,100,22
+	Delay 24
+	D_4,100,22
+	Delay 24
+	B_3,100,10
+	Delay 12
+	B_3,100,10
+	Delay 12
+	B_3,100,10
+	Delay 24
+	B_3,100,10
+	Delay 24
+	B_3,100,10
+	Delay 24
+	B_3,100,10
+	Delay 24
+	G_3,100,10
+	Delay 24
+	B_3,100,22
+	Delay 24
+	A_3,100,22
+	Delay 24
+	G_3,100,10
+	Delay 12
+	G_3,100,10
+	Delay 12
+	G_3,100,10
+	Delay 24
+	B_3,100,22
+	Delay 24
+	G_3,100,10
+	Delay 24
+	G_3,100,10
+	Delay 24
+	Call Label_0x132B3C
+	Call Label_0x132B6A
+	G_3,100,10
+	Delay 24
+	C_4,100,22
+	Delay 24
+	D_4,100,22
+	Delay 24
+	G_3,100,10
+	Delay 12
+	G_3,100,10
+	Delay 12
+	G_3,100,10
+	Delay 24
+	G_3,100,10
+	Delay 24
+	G_3,100,10
+	Delay 24
+	G_3,100,10
+	Delay 24
+	G_3,100,10
+	Delay 24
+	E_4,100,22
+	Delay 24
+	D_4,100,22
+	Delay 24
+	G_3,100,10
+	Delay 12
+	G_3,100,10
+	Delay 12
+	G_3,100,10
+	Delay 24
+	D_4,100,22
+	Delay 24
+	G_3,100,10
+	Delay 24
+	G_3,100,10
+	Delay 24
+	Call Label_0x132A89
+	Call Label_0x132AB2
+	Call Label_0x132AE0
+	Call Label_0x132B0E
+	Jump Label_0x132906
+	TrackEnd
+
+Label_0x132A89:
+	G_3,100,10
+	Delay 24
+	B_3,100,34
+	Delay 48
+	G_3,100,10
+	Delay 12
+	G_3,100,10
+	Delay 12
+	G_3,100,10
+	Delay 24
+	G_3,100,10
+	Delay 24
+	G_3,100,10
+	Delay 24
+	G_3,100,10
+	Delay 24
+	Return
+
+Label_0x132AB2:
+	F_3,100,10
+	Delay 24
+	D_4,100,22
+	Delay 24
+	A_4,100,22
+	Delay 24
+	F_3,100,10
+	Delay 12
+	F_3,100,10
+	Delay 12
+	F_3,100,10
+	Delay 24
+	C_4,100,22
+	Delay 24
+	F_3,100,10
+	Delay 24
+	F#3,100,10
+	Delay 24
+	Return
+
+Label_0x132AE0:
+	G_3,100,10
+	Delay 24
+	B_3,100,22
+	Delay 24
+	D_4,100,22
+	Delay 24
+	G_3,100,10
+	Delay 12
+	G_3,100,10
+	Delay 12
+	G_3,100,10
+	Delay 24
+	D_4,100,22
+	Delay 24
+	G_3,100,10
+	Delay 24
+	G_3,100,10
+	Delay 24
+	Return
+
+Label_0x132B0E:
+	G_3,100,10
+	Delay 24
+	E_4,100,22
+	Delay 24
+	D_4,100,22
+	Delay 24
+	G_3,100,10
+	Delay 12
+	G_3,100,10
+	Delay 12
+	G_3,100,10
+	Delay 24
+	G_3,100,10
+	Delay 24
+	G_3,100,10
+	Delay 24
+	G_3,100,10
+	Delay 24
+	Return
+
+Label_0x132B3C:
+	A_3,100,10
+	Delay 24
+	C_4,100,22
+	Delay 24
+	B_3,100,22
+	Delay 24
+	A_3,100,10
+	Delay 12
+	A_3,100,10
+	Delay 12
+	A_3,100,10
+	Delay 24
+	D_4,100,22
+	Delay 24
+	A_3,100,10
+	Delay 24
+	B_3,100,10
+	Delay 24
+	Return
+
+Label_0x132B6A:
+	C_4,100,10
+	Delay 24
+	F_4,100,22
+	Delay 24
+	E_4,100,22
+	Delay 24
+	C_4,100,10
+	Delay 12
+	C_4,100,10
+	Delay 12
+	C_4,100,10
+	Delay 24
+	A_4,100,22
+	Delay 24
+	C_4,100,10
+	Delay 24
+	C_4,100,10
+	Delay 24
+	Return
+
+Track_4:
+	Poly 0
+	Instrument 56
+	Volume 100
+	Pan 64
+	Expression 110
+	PitchBendRange 2
+	Priority 30
+	ModDepth 0
+	ModSpeed 16
+	ModType 0
+	ModRange 1
+	ModDelay 0
+	G#8,64,2
+	Delay 72
+	G#8,64,2
+	Delay 12
+	G#8,64,2
+	Delay 12
+	G#8,64,2
+	Delay 24
+	G#8,64,2
+	Delay 24
+	G#8,64,2
+	Delay 48
+	G#8,64,2
+	Delay 72
+	G#8,64,2
+	Delay 12
+	G#8,64,2
+	Delay 12
+	G#8,64,2
+	Delay 24
+	G#8,64,2
+	Delay 24
+	G#8,64,2
+	Delay 12
+	G#8,64,2
+	Delay 12
+	G#8,64,2
+	Delay 12
+	G#8,64,2
+	Delay 12
+	Call Label_0x132C70
+	Call Label_0x132C94
+	Call Label_0x132C94
+	Call Label_0x132CB3
+Label_0x132C0C:
+	G#8,64,2
+	Delay 72
+	G#8,64,2
+	Delay 12
+	G#8,64,2
+	Delay 12
+	G#8,64,2
+	Delay 48
+	G#8,64,2
+	Delay 24
+	G#8,64,2
+	Delay 24
+	Call Label_0x132C70
+	Call Label_0x132C94
+	Call Label_0x132CB3
+	Call Label_0x132C94
+	Call Label_0x132C94
+	Call Label_0x132C70
+	Call Label_0x132C94
+	Call Label_0x132C94
+	Call Label_0x132C94
+	Call Label_0x132C70
+	Call Label_0x132CB3
+	Call Label_0x132C70
+	Call Label_0x132C94
+	Call Label_0x132C94
+	Call Label_0x132CB3
+	Jump Label_0x132C0C
+	G#8,64,2
+	Delay 2
+	TrackEnd
+
+Label_0x132C70:
+	G#8,64,2
+	Delay 72
+	G#8,64,2
+	Delay 12
+	G#8,64,2
+	Delay 12
+	G#8,64,2
+	Delay 24
+	G#8,64,2
+	Delay 24
+	G#8,64,2
+	Delay 24
+	G#8,64,2
+	Delay 24
+	Return
+
+Label_0x132C94:
+	G#8,64,2
+	Delay 72
+	G#8,64,2
+	Delay 12
+	G#8,64,2
+	Delay 12
+	G#8,64,2
+	Delay 48
+	G#8,64,2
+	Delay 24
+	G#8,64,2
+	Delay 24
+	Return
+
+Label_0x132CB3:
+	G#8,64,2
+	Delay 72
+	G#8,64,2
+	Delay 12
+	G#8,64,2
+	Delay 12
+	G#8,64,2
+	Delay 24
+	G#8,64,2
+	Delay 24
+	G#8,64,2
+	Delay 6
+	G#8,64,2
+	Delay 6
+	G#8,64,2
+	Delay 6
+	G#8,64,2
+	Delay 6
+	G#8,64,2
+	Delay 6
+	G#8,64,2
+	Delay 6
+	G#8,64,2
+	Delay 6
+	G#8,64,2
+	Delay 6
+	Return
+
+Track_5:
+	Poly 0
+	Instrument 57
+	Volume 100
+	Pan 64
+	Expression 110
+	PitchBendRange 2
+	Priority 30
+	ModDepth 0
+	ModSpeed 16
+	ModType 0
+	ModRange 1
+	ModDelay 0
+	Delay 24
+	A#8,55,16
+	Delay 24
+	A#8,55,16
+	Delay 129
+	A#8,55,16
+	Delay 24
+	A#8,55,16
+	Delay 129
+	A#8,55,16
+	Delay 24
+	A#8,55,16
+	Delay 129
+	A#8,55,16
+	Delay 24
+	A#8,55,16
+	Delay 72
+	A#8,55,16
+	Delay 96
+	A#8,55,16
+	Delay 24
+	A#8,55,16
+	Delay 72
+	A#8,55,16
+	Delay 96
+	A#8,55,16
+	Delay 24
+	A#8,55,16
+	Delay 129
+Label_0x132D5A:
+	Delay 24
+	A#8,55,16
+	Delay 24
+	A#8,55,16
+	Delay 72
+	A#8,55,16
+	Delay 96
+	A#8,55,16
+	Delay 24
+	A#8,55,16
+	Delay 129
+	A#8,55,16
+	Delay 24
+	A#8,55,16
+	Delay 72
+	A#8,55,16
+	Delay 96
+	A#8,55,16
+	Delay 24
+	A#8,55,16
+	Delay 129
+	A#8,55,16
+	Delay 24
+	A#8,55,16
+	Delay 72
+	A#8,55,16
+	Delay 96
+	A#8,55,16
+	Delay 24
+	A#8,55,16
+	Delay 72
+	A#8,55,16
+	Delay 96
+	A#8,55,16
+	Delay 24
+	A#8,55,16
+	Delay 129
+	A#8,55,16
+	Delay 24
+	A#8,55,16
+	Delay 72
+	A#8,55,16
+	Delay 96
+	A#8,55,16
+	Delay 24
+	A#8,55,16
+	Delay 72
+	A#8,55,16
+	Delay 96
+	A#8,55,16
+	Delay 24
+	A#8,55,16
+	Delay 72
+	A#8,55,16
+	Delay 96
+	A#8,55,16
+	Delay 24
+	A#8,55,16
+	Delay 129
+	A#8,55,16
+	Delay 24
+	A#8,55,16
+	Delay 129
+	A#8,55,16
+	Delay 24
+	A#8,55,16
+	Delay 129
+	A#8,55,16
+	Delay 24
+	A#8,55,16
+	Delay 72
+	A#8,55,16
+	Delay 96
+	A#8,55,16
+	Delay 24
+	A#8,55,16
+	Delay 72
+	A#8,55,16
+	Delay 96
+	A#8,55,16
+	Delay 24
+	A#8,55,16
+	Delay 129
+	Jump Label_0x132D5A
+	TrackEnd
+
+	TrackEnd
+
+	C_0,0,0

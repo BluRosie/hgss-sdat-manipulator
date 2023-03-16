@@ -1,0 +1,36 @@
+Track_1:
+	Poly 0
+	Tempo 150
+	Instrument 96
+	Volume 127
+	Pan 64
+	ModDepth 5
+	PitchBendRange 2
+	PitchBend 31
+	Delay 1
+	A_7,127,12
+	Delay 2
+	E_8,120,30
+	Delay 6
+	ModDepth 5
+	Delay 24
+	ModDepth 0
+	TrackEnd
+
+Track_2:
+	Poly 0
+	Instrument 103
+	Volume 70
+	Pan 64
+	ModDepth 20
+	PitchBendRange 2
+	PitchBend 31
+	A_6,105,12
+	Delay 2
+	C#8,102,24
+	Delay 24
+	TrackEnd
+
+	TrackEnd
+
+	C_0,0,0

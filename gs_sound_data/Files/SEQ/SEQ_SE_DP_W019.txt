@@ -1,0 +1,227 @@
+Track_1:
+	Poly 0
+	Tempo 220
+	Instrument 73
+	Volume 105
+	Pan 64
+	PitchBendRange 12
+	Pan 64
+	PitchBend 0
+	E_4,127,2
+	Delay 2
+	Volume 64
+	PitchBend 224
+	Pan 74
+	A_3,127,14
+	Delay 2
+	Volume 83
+	PitchBend 0
+	Pan 64
+	Delay 3
+	Volume 100
+	PitchBend 34
+	Pan 55
+	Delay 2
+	Volume 127
+	PitchBend 67
+	Pan 64
+	Pan 64
+	Delay 3
+	PitchBend 109
+	Pan 74
+	Delay 2
+	PitchBend 127
+	Pan 64
+	Delay 5
+	PitchBend 2
+	Volume 105
+	Pan 74
+	A_3,127,9
+	Delay 2
+	PitchBend 76
+	Volume 63
+	Pan 64
+	Delay 3
+	PitchBend 96
+	Volume 96
+	Pan 55
+	Delay 2
+	PitchBend 127
+	Volume 127
+	Pan 64
+	Pan 64
+	Delay 7
+	Volume 105
+	PitchBend 0
+	D#4,104,2
+	Delay 3
+	PitchBend 224
+	Pan 74
+	Volume 64
+	G#3,99,14
+	Delay 2
+	PitchBend 0
+	Pan 64
+	Volume 83
+	Delay 2
+	PitchBend 34
+	Pan 55
+	Volume 100
+	Delay 3
+	PitchBend 67
+	Pan 64
+	Pan 64
+	Volume 127
+	Delay 2
+	PitchBend 109
+	Pan 74
+	Delay 3
+	PitchBend 127
+	Pan 64
+	Delay 4
+	PitchBend 2
+	Pan 74
+	Volume 105
+	G#3,99,9
+	Delay 3
+	PitchBend 76
+	Pan 64
+	Volume 63
+	Delay 2
+	PitchBend 96
+	Pan 55
+	Volume 96
+	Delay 3
+	PitchBend 127
+	Pan 64
+	Pan 64
+	Volume 127
+	Delay 7
+	Volume 105
+	PitchBend 0
+	D_4,88,2
+	Delay 2
+	PitchBend 224
+	Pan 74
+	Volume 64
+	G_3,60,14
+	Delay 3
+	PitchBend 0
+	Pan 64
+	Volume 83
+	Delay 2
+	PitchBend 34
+	Pan 55
+	Volume 100
+	Delay 2
+	PitchBend 67
+	Pan 64
+	Pan 64
+	Volume 127
+	Delay 3
+	PitchBend 109
+	Pan 74
+	Delay 2
+	PitchBend 127
+	Pan 64
+	Delay 5
+	PitchBend 2
+	Pan 74
+	Volume 105
+	G_3,60,9
+	Delay 2
+	PitchBend 76
+	Pan 64
+	Volume 63
+	Delay 3
+	PitchBend 96
+	Pan 55
+	Volume 96
+	Delay 2
+	PitchBend 127
+	Pan 64
+	Pan 64
+	Volume 127
+	Delay 3
+	TrackEnd
+
+Track_2:
+	Poly 0
+	Instrument 124
+	Volume 127
+	Pan 64
+	C_4,40,16
+	Delay 2
+	Volume 84
+	Delay 2
+	Volume 101
+	Delay 3
+	Volume 127
+	Delay 2
+	Volume 103
+	Delay 3
+	Volume 57
+	Delay 2
+	Volume 17
+	Delay 5
+	Volume 127
+	G_6,40,9
+	Delay 2
+	Volume 98
+	Delay 3
+	Volume 127
+	Delay 4
+	Volume 64
+	Delay 5
+	Volume 127
+	C_4,30,16
+	Delay 3
+	Volume 84
+	Delay 2
+	Volume 101
+	Delay 2
+	Volume 127
+	Delay 3
+	Volume 103
+	Delay 2
+	Volume 57
+	Delay 3
+	Volume 17
+	Delay 4
+	Volume 127
+	G_6,30,9
+	Delay 3
+	Volume 98
+	Delay 2
+	Volume 127
+	Delay 5
+	Volume 64
+	Delay 5
+	Volume 127
+	C_4,20,16
+	Delay 2
+	Volume 84
+	Delay 3
+	Volume 101
+	Delay 2
+	Volume 127
+	Delay 2
+	Volume 103
+	Delay 3
+	Volume 57
+	Delay 2
+	Volume 17
+	Delay 5
+	Volume 127
+	G_6,20,9
+	Delay 2
+	Volume 98
+	Delay 3
+	Volume 127
+	Delay 5
+	Volume 64
+	TrackEnd
+
+	TrackEnd
+
+	C_0,0,0

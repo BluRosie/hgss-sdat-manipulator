@@ -1,0 +1,38 @@
+Track_1:
+	Poly 0
+	Tempo 150
+	Instrument 8
+	Volume 127
+	Volume 127
+	PitchBend 0
+	G#6,127,7
+	Delay 1
+	PitchBend 32
+	Delay 1
+	PitchBend 51
+	Delay 1
+	PitchBend 76
+	Delay 1
+	PitchBend 102
+	Delay 1
+	PitchBend 124
+	Delay 3
+	G#7,127,15
+	Delay 16
+	PitchBend 0
+	Instrument 28
+	TrackEnd
+
+Track_2:
+	Poly 0
+	Instrument 123
+	Volume 127
+	C_7,96,7
+	Delay 8
+	C_8,96,15
+	Delay 16
+	Instrument 68
+	TrackEnd
+
+	TrackEnd
+

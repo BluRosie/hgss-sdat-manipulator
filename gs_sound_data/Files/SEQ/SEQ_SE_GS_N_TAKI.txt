@@ -1,0 +1,24 @@
+Track_1:
+	Poly 0
+	Tempo 150
+Label_0x195E69:
+	Delay 258
+	Jump Label_0x195E69
+	TrackEnd
+
+Track_2:
+	Poly 0
+Label_0x195E73:
+	Instrument 90
+	C_5,100,95
+	Delay 96
+	C_5,100,95
+	Delay 96
+	C_5,100,95
+	Delay 96
+	Jump Label_0x195E73
+	TrackEnd
+
+	TrackEnd
+
+	C_0,0,0

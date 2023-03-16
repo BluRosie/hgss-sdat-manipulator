@@ -1,0 +1,39 @@
+Track_1:
+	Poly 0
+	Tempo 311
+	Instrument 94
+	Volume 127
+	PitchSweep 36
+	ModDepth 8
+	PitchBend 0
+	G#7,119,4
+	Delay 12
+	C_7,127,6
+	Delay 6
+	C_7,60,6
+	Delay 6
+	C_7,30,6
+	Delay 6
+	C_7,10,6
+	Delay 6
+	TrackEnd
+
+Track_2:
+	Poly 0
+	Instrument 95
+	Volume 127
+	G#4,90,6
+	Delay 6
+	C_4,118,6
+	Delay 6
+	C_4,60,6
+	Delay 6
+	C_4,30,6
+	Delay 6
+	C_4,10,6
+	Delay 6
+	TrackEnd
+
+	TrackEnd
+
+	C_0,0,0

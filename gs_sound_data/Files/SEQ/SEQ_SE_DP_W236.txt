@@ -1,0 +1,203 @@
+Track_1:
+	Poly 0
+	Tempo 150
+	Instrument 18
+	Volume 127
+	Pan 64
+	PitchBendRange 4
+	PitchBend 7
+	ModDepth 6
+	D#8,90,2
+	Delay 2
+	D_8,90,2
+	Delay 2
+	G_7,90,2
+	Delay 3
+	G_8,100,40
+	Delay 41
+	Call Label_0x1906B0
+	Call Label_0x1906D5
+	Call Label_0x1906EC
+	Call Label_0x190703
+	Pan 96
+	G#7,20,2
+	Delay 2
+	G_7,20,2
+	Delay 2
+	C_7,20,2
+	Delay 3
+	Pan 32
+	C_8,20,40
+	Delay 41
+	Pan 64
+	D#8,90,2
+	Delay 2
+	D_8,90,2
+	Delay 2
+	G_7,90,2
+	Delay 3
+	G_8,100,40
+	Delay 41
+	Call Label_0x1906B0
+	Call Label_0x1906D5
+	Call Label_0x1906EC
+	Call Label_0x190703
+	Pan 96
+	G#7,20,2
+	Delay 2
+	G_7,20,2
+	Delay 2
+	C_7,20,2
+	Delay 3
+	Pan 32
+	C_8,20,40
+	Delay 40
+	TrackEnd
+
+Label_0x1906B0:
+	D#8,54,2
+	Delay 2
+	D_8,54,2
+	Delay 2
+	G_7,54,2
+	Delay 3
+	G_8,64,40
+	Delay 5
+	Pan 70
+	Delay 9
+	Pan 60
+	Delay 10
+	Pan 70
+	Delay 9
+	Pan 60
+	Delay 8
+	Return
+
+Label_0x1906D5:
+	Pan 64
+	G#7,90,2
+	Delay 2
+	G_7,90,2
+	Delay 2
+	C_7,90,2
+	Delay 3
+	C_8,100,40
+	Delay 41
+	Return
+
+Label_0x1906EC:
+	Pan 80
+	G#7,54,2
+	Delay 2
+	G_7,54,2
+	Delay 2
+	C_7,54,2
+	Delay 3
+	C_8,64,40
+	Delay 41
+	Return
+
+Label_0x190703:
+	Pan 48
+	G#7,40,2
+	Delay 2
+	G_7,40,2
+	Delay 2
+	C_7,40,2
+	Delay 3
+	C_8,40,40
+	Delay 41
+	Return
+
+Track_2:
+	Poly 0
+	Instrument 23
+	Volume 50
+	Pan 64
+	PitchBend 249
+	Delay 21
+	D#8,110,2
+	Delay 3
+	D_8,110,2
+	Delay 2
+	G_7,110,2
+	Delay 2
+	G_8,110,9
+	Delay 10
+	G_8,94,9
+	Delay 10
+	Call Label_0x1907A5
+	Call Label_0x1907C2
+	Pan 114
+	C_8,78,9
+	Delay 9
+	Pan 16
+	C_8,61,9
+	Delay 10
+	Pan 114
+	C_8,45,9
+	Delay 9
+	Pan 15
+	C_8,30,9
+	Delay 116
+	Pan 64
+	Delay 21
+	D#8,110,2
+	Delay 3
+	D_8,110,2
+	Delay 2
+	G_7,110,2
+	Delay 2
+	G_8,110,9
+	Delay 10
+	G_8,94,9
+	Delay 10
+	Call Label_0x1907A5
+	Call Label_0x1907C2
+	Pan 114
+	C_8,78,9
+	Delay 9
+	Pan 16
+	C_8,61,9
+	Delay 10
+	Pan 114
+	C_8,45,9
+	Delay 9
+	Pan 15
+	C_8,30,9
+	Delay 10
+	TrackEnd
+
+Label_0x1907A5:
+	Pan 114
+	G_8,78,9
+	Delay 9
+	Pan 16
+	G_8,61,9
+	Delay 10
+	Pan 114
+	G_8,45,9
+	Delay 9
+	Pan 15
+	G_8,30,9
+	Delay 20
+	Return
+
+Label_0x1907C2:
+	Pan 64
+	Delay 21
+	G#7,110,2
+	Delay 3
+	G_7,110,2
+	Delay 2
+	C_7,110,2
+	Delay 2
+	C_8,110,9
+	Delay 10
+	C_8,94,9
+	Delay 10
+	Return
+
+	TrackEnd
+
+	C_0,0,0

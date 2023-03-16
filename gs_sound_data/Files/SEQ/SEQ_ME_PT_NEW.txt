@@ -1,0 +1,188 @@
+Track_1:
+	Poly 0
+	Tempo 138
+	Instrument 29
+	Volume 125
+	Pan 64
+	Expression 110
+	PitchBendRange 2
+	Priority 64
+	ModDepth 0
+	ModSpeed 16
+	ModType 0
+	ModRange 1
+	ModDelay 0
+	D#6,115,7
+	A#6,115,7
+	Delay 12
+	D#6,109,7
+	A#6,109,7
+	Delay 24
+	D#6,115,7
+	A#6,115,7
+	Delay 24
+	F_6,113,7
+	C_7,113,7
+	Delay 24
+	C#6,117,8
+	G#6,117,8
+	Delay 8
+	TrackEnd
+
+Track_2:
+	Poly 0
+	Instrument 30
+	Volume 125
+	Pan 90
+	Expression 120
+	PitchBendRange 2
+	Priority 62
+	ModDepth 0
+	ModSpeed 16
+	ModType 0
+	ModRange 1
+	ModDelay 0
+	F#4,110,6
+	Delay 12
+	F#4,110,6
+	Delay 24
+	F#4,110,6
+	Delay 24
+	G#4,110,6
+	Delay 24
+	F_4,110,7
+	Delay 7
+	TrackEnd
+
+Track_3:
+	Poly 0
+	Instrument 23
+	Volume 125
+	Pan 120
+	Expression 120
+	PitchBendRange 2
+	Priority 60
+	ModDepth 0
+	ModSpeed 16
+	ModType 0
+	ModRange 1
+	ModDelay 0
+	F#3,120,8
+	Delay 12
+	F#3,112,8
+	Delay 24
+	F#3,122,8
+	Delay 24
+	G#3,117,8
+	Delay 24
+	F_3,123,9
+	Delay 9
+	TrackEnd
+
+Track_4:
+	Poly 0
+	Instrument 39
+	Volume 120
+	Pan 35
+	Expression 120
+	PitchBendRange 2
+	Priority 50
+	ModDepth 0
+	ModSpeed 16
+	ModType 0
+	ModRange 1
+	ModDelay 0
+	D_3,108,10
+	Delay 12
+	D_3,97,10
+	Delay 24
+	D_3,108,10
+	Delay 24
+	D_3,106,10
+	Delay 24
+	D_3,108,11
+	Delay 11
+	TrackEnd
+
+Track_5:
+	Poly 0
+	Instrument 28
+	Volume 125
+	Pan 30
+	Expression 120
+	PitchBendRange 2
+	Priority 48
+	ModDepth 0
+	ModSpeed 16
+	ModType 0
+	ModRange 1
+	ModDelay 0
+	F#4,120,9
+	Delay 12
+	F#4,113,9
+	Delay 24
+	F#4,119,10
+	Delay 24
+	C#5,112,10
+	Delay 24
+	F#4,122,11
+	Delay 11
+	TrackEnd
+
+Track_6:
+	Poly 0
+	Instrument 32
+	Volume 120
+	Pan 45
+	Expression 110
+	PitchBendRange 2
+	Priority 58
+	ModDepth 0
+	ModSpeed 16
+	ModType 0
+	ModRange 1
+	ModDelay 0
+	C#5,115,6
+	A#5,121,6
+	Delay 12
+	C#5,109,6
+	A#5,115,6
+	Delay 24
+	C#5,117,6
+	A#5,123,6
+	Delay 24
+	F_5,117,6
+	C_6,123,6
+	Delay 24
+	C#5,111,7
+	G#5,117,7
+	Delay 7
+	TrackEnd
+
+Track_7:
+	Poly 0
+	Instrument 37
+	Volume 120
+	Pan 20
+	Expression 110
+	PitchBendRange 2
+	Priority 54
+	ModDepth 0
+	ModSpeed 16
+	ModType 0
+	ModRange 1
+	ModDelay 0
+	A#5,118,10
+	Delay 12
+	A#5,111,10
+	Delay 24
+	A#5,117,10
+	Delay 24
+	C_6,110,10
+	Delay 24
+	G#5,120,11
+	Delay 11
+	TrackEnd
+
+	TrackEnd
+

@@ -1,0 +1,128 @@
+Track_1:
+	Poly 0
+	Tempo 120
+	Instrument 27
+	Volume 127
+	Pan 64
+	Pan 54
+	A_4,62,6
+	Delay 6
+	C_5,73,6
+	Delay 6
+	D_5,85,6
+	Delay 6
+	E_5,95,6
+	Delay 6
+	Pan 64
+	PitchSweep 0
+	PitchSweep 0
+	PitchBendRange 2
+	F#5,65,12
+	Delay 12
+	B_5,85,12
+	Delay 12
+	Pan 54
+	F#6,105,6
+	Delay 5
+	Pan 74
+	Delay 1
+	F#5,59,6
+	Delay 5
+	Pan 54
+	Delay 1
+	F#6,40,6
+	Delay 5
+	Pan 74
+	Delay 1
+	F#5,21,6
+	Delay 5
+	Pan 54
+	Delay 1
+	F#6,23,6
+	Delay 5
+	Pan 74
+	Delay 1
+	F#5,15,6
+	Delay 6
+	TrackEnd
+
+Track_2:
+	Poly 0
+	Pan 37
+	Instrument 5
+	A_4,55,6
+	Pan 40
+	Delay 2
+	Pan 42
+	Delay 2
+	Pan 45
+	Delay 1
+	Pan 46
+	Delay 1
+	C_5,66,6
+	Pan 50
+	Delay 1
+	Pan 52
+	Delay 2
+	Pan 55
+	Pan 56
+	Delay 1
+	Pan 61
+	Delay 1
+	Pan 63
+	Delay 1
+	D_5,75,6
+	Pan 65
+	Delay 1
+	Pan 69
+	Delay 1
+	Pan 71
+	Delay 1
+	Pan 75
+	Delay 1
+	Pan 78
+	Pan 80
+	Delay 1
+	Pan 82
+	Delay 1
+	E_5,85,6
+	Pan 91
+	Delay 6
+	Pan 54
+	F#5,65,12
+	PitchSweep 0
+	PitchSweep 0
+	PitchBendRange 2
+	PitchBend 2
+	Delay 6
+	Pan 74
+	Delay 6
+	Pan 54
+	B_5,85,12
+	Delay 6
+	Pan 74
+	Delay 6
+	F#6,105,6
+	Delay 5
+	Pan 44
+	Delay 1
+	F#5,60,6
+	Delay 6
+	Pan 83
+	F#6,40,6
+	Delay 5
+	Pan 44
+	Delay 1
+	F#5,21,6
+	Delay 6
+	Pan 84
+	F#6,23,6
+	Delay 5
+	Pan 44
+	Delay 1
+	F#5,15,6
+	Delay 6
+	TrackEnd
+
+	TrackEnd
+

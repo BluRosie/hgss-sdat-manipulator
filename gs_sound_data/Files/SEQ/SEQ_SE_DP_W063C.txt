@@ -1,0 +1,114 @@
+Track_1:
+	Poly 0
+	Tempo 180
+	Instrument 71
+	Volume 127
+	PitchSweep 64240
+	C_7,127,6
+	Delay 6
+	C_9,127,6
+	Delay 6
+	D_7,127,6
+	Delay 6
+	D_9,127,6
+	Delay 6
+	Call Label_0x18B5B1
+	Call Label_0x18B5C6
+	Call Label_0x18B5B1
+	Call Label_0x18B5C6
+	C_7,106,6
+	Delay 6
+	D_9,99,6
+	Delay 6
+	D_7,89,6
+	Delay 6
+	C_9,77,6
+	Delay 6
+	C_7,66,6
+	Delay 6
+	C_9,57,6
+	Delay 6
+	D_7,45,6
+	Delay 6
+	D_9,35,6
+	Delay 6
+	C_7,28,6
+	Delay 6
+	D_9,25,6
+	Delay 6
+	D_7,16,6
+	Delay 6
+	C_9,10,6
+	Delay 6
+	TrackEnd
+
+Label_0x18B5B1:
+	C_7,127,6
+	Delay 6
+	D_9,127,6
+	Delay 6
+	D_7,127,6
+	Delay 6
+	C_9,127,6
+	Delay 6
+	Return
+
+Label_0x18B5C6:
+	C_7,127,6
+	Delay 6
+	C_9,127,6
+	Delay 6
+	D_7,127,6
+	Delay 6
+	D_9,127,6
+	Delay 6
+	Return
+
+Track_2:
+	Poly 0
+	Instrument 99
+	Volume 127
+	Volume 127
+	PitchSweep 1104
+	C_8,127,6
+	Delay 6
+	C_10,127,6
+	Delay 6
+	D_8,127,6
+	Delay 6
+	D_10,127,6
+	Delay 6
+	Call Label_0x18B617
+	Call Label_0x18B62C
+	Call Label_0x18B617
+	Call Label_0x18B62C
+	Call Label_0x18B617
+	Call Label_0x18B62C
+	Call Label_0x18B617
+	TrackEnd
+
+Label_0x18B617:
+	C_8,127,6
+	Delay 6
+	D_10,127,6
+	Delay 6
+	D_8,127,6
+	Delay 6
+	C_10,127,6
+	Delay 6
+	Return
+
+Label_0x18B62C:
+	C_8,127,6
+	Delay 6
+	C_10,127,6
+	Delay 6
+	D_8,127,6
+	Delay 6
+	D_10,127,6
+	Delay 6
+	Return
+
+	TrackEnd
+
+	C_0,0,0

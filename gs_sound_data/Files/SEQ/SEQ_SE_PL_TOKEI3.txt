@@ -1,0 +1,110 @@
+Track_1:
+	Poly 0
+	Tempo 120
+Label_0x176FE9:
+	Instrument 3
+	Volume 115
+	PitchSweep 64720
+	PitchBendRange 12
+	PitchBend 100
+	C#5,127,48
+	Delay 7
+	Pan 59
+	Delay 7
+	Pan 72
+	Delay 7
+	Pan 55
+	Delay 4
+	Volume 127
+	Delay 3
+	Pan 68
+	Delay 3
+	Volume 117
+	Delay 5
+	Pan 59
+	Delay 1
+	Volume 85
+	Delay 5
+	Volume 57
+	Delay 1
+	Pan 64
+	Delay 5
+	C#5,110,24
+	Pan 68
+	Delay 7
+	Pan 59
+	Delay 7
+	Pan 72
+	Delay 7
+	Pan 55
+	Delay 3
+	C#5,59,24
+	Delay 4
+	Pan 68
+	Delay 8
+	Pan 59
+	Delay 7
+	Pan 64
+	Delay 4
+	Volume 117
+	Delay 1
+	Jump Label_0x176FE9
+	Pan 68
+	TrackEnd
+
+Track_2:
+	Poly 0
+Label_0x177052:
+	Volume 115
+	Instrument 3
+	PitchSweep 64720
+	Pan 64
+	PitchBendRange 12
+	PitchBend 100
+	C#5,127,48
+	Delay 7
+	Pan 49
+	Delay 7
+	Pan 82
+	Delay 7
+	Pan 45
+	Delay 4
+	Volume 127
+	Delay 3
+	Pan 78
+	Delay 3
+	Volume 117
+	Delay 5
+	Pan 49
+	Delay 1
+	Volume 85
+	Delay 5
+	Volume 57
+	Delay 1
+	Pan 64
+	Delay 5
+	C#5,110,24
+	Pan 78
+	Delay 7
+	Pan 49
+	Delay 7
+	Pan 82
+	Delay 7
+	Pan 45
+	Delay 3
+	C#5,59,24
+	Delay 4
+	Pan 78
+	Delay 8
+	Pan 49
+	Delay 7
+	Pan 64
+	Delay 4
+	Volume 117
+	Delay 1
+	Jump Label_0x177052
+	Pan 78
+	TrackEnd
+
+	TrackEnd
+
