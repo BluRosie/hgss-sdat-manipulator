@@ -11,7 +11,7 @@ build:
 	$(SDATTOOL) -b gs_sound_data.sdat gs_sound_data
 
 clean:
-	rm -rf gs_sound_data
+	rm -rf gs_sound_data NEW_FILES
 	git restore gs_sound_data
 
 compare:

@@ -5,7 +5,7 @@ import json
 import pprint
 import os
 import shutil
-from subprocess import run
+from subprocess import run, check_output
 
 
 
@@ -98,7 +98,7 @@ os.makedirs("NEW_FILES", exist_ok=True)
 os.makedirs("NEW_FILES/NEW_WAVARC", exist_ok=True)
 
 OldSWAVToNewSWAV = {}
-NewSWAVToOldSWAV = {}
+swavMapping = 0xFF
 
 for seq in SEQDict:
     #try:
@@ -108,12 +108,11 @@ for seq in SEQDict:
     if 'AIF' in seq:
         continue
     OldSWAVToNewSWAV[seq] = {}
-    NewSWAVToOldSWAV[seq] = {}
+    BankSWAVHashes = {} # individual bank's index -> hash
     currOutputSwavWavarc = 0
     for instr in SSEQToInstrDict[SEQToSSEQDict[seq]]:
         print(seq + " (" + SEQToSSEQDict[seq] + ") uses instrument " + instr + " from " + UsageDict[seq] + ".  Searching for instrument...")
         OldSWAVToNewSWAV[seq][instr] = {}
-        NewSWAVToOldSWAV[seq][instr] = {}
         for entry in BankToInstrument[UsageDict[seq]]:
             if "Unused" not in entry and int(entry) == int(instr):
                 print("Instrument " + instr + " found...  Copying its WAVARC entries over...")
@@ -121,18 +120,27 @@ for seq in SEQDict:
                 os.makedirs("NEW_FILES/NEW_WAVARC/WAVE_ARC_" + seq[len("SEQ_"):], exist_ok=True)
                 for n in range(1, len(BankToInstrument[UsageDict[seq]][instr]), 2):
                     if "GAMEBOY" not in UsageDict[seq]:
+                        swavMapping = 0xFF
                         currOutputWavArc = BankToInstrument[UsageDict[seq]][instr][n-1]
                         currInputSwavArc = BankToInstrument[UsageDict[seq]][instr][n]
-                        shutil.copyfile("gs_sound_data/Files/WAVARC/{}/{:02X}.swav".format(currOutputWavArc, int(currInputSwavArc)), "NEW_FILES/NEW_WAVARC/{}/{:02X}.swav".format("WAVE_ARC_" + seq[4:], currOutputSwavWavarc))
-                        #if currOutputWavArc not in OldSWAVToNewSWAV[seq][instr]:
-                        #    OldSWAVToNewSWAV[seq][instr][currOutputWavArc] = {}
-                        #if currOutputWavArc not in NewSWAVToOldSWAV[seq][instr]:
-                        #    NewSWAVToOldSWAV[seq][instr][currOutputWavArc] = {}
-                        #OldSWAVToNewSWAV[seq][instr][currOutputWavArc][currInputSwavArc] = currOutputSwavWavarc
-                        #NewSWAVToOldSWAV[seq][instr][currOutputWavArc][currOutputSwavWavarc] = currInputSwavArc
-                        OldSWAVToNewSWAV[seq][instr][currInputSwavArc] = currOutputSwavWavarc
-                        NewSWAVToOldSWAV[seq][instr][currOutputSwavWavarc] = currInputSwavArc
-                        currOutputSwavWavarc += 1
+
+                        # previously was copying over several equivalent SWAV's to pack in each SWAR
+                        # now we must check all of the existing files to make sure they are different then the input
+                        inputSHA1 = check_output(["sha1sum", f"gs_sound_data/Files/WAVARC/{currOutputWavArc}/{int(currInputSwavArc):02X}.swav"]).split()[0]
+                        print(f"Searching for file with SHA {inputSHA1}...")
+                        for index in range(0, currOutputSwavWavarc):
+                            if inputSHA1 in BankSWAVHashes[index]:
+                                swavMapping = index
+                                break
+
+                        if (swavMapping != 0xFF):
+                            print(f"Matching SHA found...  Index {swavMapping}.")
+                            OldSWAVToNewSWAV[seq][instr][currInputSwavArc] = swavMapping
+                        else:
+                            BankSWAVHashes[currOutputSwavWavarc] = inputSHA1
+                            shutil.copyfile(f"gs_sound_data/Files/WAVARC/{currOutputWavArc}/{int(currInputSwavArc):02X}.swav", f"NEW_FILES/NEW_WAVARC/WAVE_ARC_{seq[4:]}/{currOutputSwavWavarc:02X}.swav")
+                            OldSWAVToNewSWAV[seq][instr][currInputSwavArc] = currOutputSwavWavarc
+                            currOutputSwavWavarc += 1
     print("-----------------")
 
 
@@ -155,7 +163,7 @@ for seq in SEQDict:
         continue
     # need to keep the instrument index in the sbnk--copy over whole instruments at a time, then, rectify with wavarc topic
     oldBankFile = open("gs_sound_data/Files/BANK/" + UsageDict[seq] + ".txt")
-    newBankFile = open("NEW_FILES/NEW_BANK/{}.txt".format("BANK_" + seq[4:]), 'w')
+    newBankFile = open(f"NEW_FILES/NEW_BANK/BANK_{seq[4:]}.txt", 'w')
     for instr in OldSWAVToNewSWAV[seq].keys():
         currInstrText = ""
         print("[" + seq + "] Grabbing instrument " + instr + " from " + UsageDict[seq] + "...")
