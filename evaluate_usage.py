@@ -171,7 +171,17 @@ for seq in SEQDict:
         for line in oldBankFile:
             #print(line)
             if line.startswith(str(instr) + ",") and not instrLogging:
-                currInstrText = line
+                processingSteps = line.strip().replace(" ", "").split(",")
+                if (len(processingSteps) <= 4 or "Keysplit" in line or "BANK_GAMEBOY" in UsageDict[seq]):
+                    currInstrText = line
+                elif ("PSG" in line): # still want these to load from swar 0, but swavId is now different
+                    processingSteps[3] = "0"
+                    currInstrText = ", ".join(processingSteps) + "\n"
+                else:
+                    #processingSteps = line.strip().replace(" ", "").split(",")
+                    processingSteps[2] = str(OldSWAVToNewSWAV[seq][str(instr)][processingSteps[2]])
+                    processingSteps[3] = "0"
+                    currInstrText = ", ".join(processingSteps) + "\n"
                 instrLogging = True
                 print("Instrument found!")
             elif instrLogging and line.startswith("\t"):
@@ -206,7 +216,7 @@ fileBlockJsonFile.close()
 
 # first, InfoBlock seqInfo
 for n in range(0, len(infoBlockJson["seqInfo"])):
-    if 'AIF' in infoBlockJson["seqInfo"][n]["name"] or "UMIBE" in infoBlockJson["seqInfo"][n]["name"]:
+    if 'AIF' in infoBlockJson["seqInfo"][n]["name"]:
         continue
     if "SEQ_" in infoBlockJson["seqInfo"][n]["name"]:
         infoBlockJson["seqInfo"][n]["bnk"] = "BANK_" + infoBlockJson["seqInfo"][n]["name"][len("SEQ_"):]
@@ -227,6 +237,7 @@ for n in range(0, len(newBanks)):
         newBankEntry = {"name": baseName, "fileName": baseName + ".sbnk", "unkA": 0, "wa": ["WAVE_ARC_DUMMY", "", "", ""]}
     else:
         newBankEntry = {"name": baseName, "fileName": baseName + ".sbnk", "unkA": 0, "wa": ["WAVE_ARC_" + baseName[len("BANK_"):], "", "", ""]}
+    #newBankEntry = {"name": baseName, "fileName": baseName + ".sbnk", "unkA": 0, "wa": ["WAVE_ARC_" + baseName[len("BANK_"):], "", "", ""]}
     infoBlockJson["bankInfo"].append(newBankEntry)
 
 # now the wavarcInfo--add new entries here as well
