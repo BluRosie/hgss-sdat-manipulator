@@ -214,12 +214,24 @@ fileBlockJson = json.load(fileBlockJsonFile)
 infoBlockJsonFile.close()
 fileBlockJsonFile.close()
 
+# also get a list of which seq -> which player is used so we can calculate ram space later
+seqToPlayerDict = {}
+
 # first, InfoBlock seqInfo
 for n in range(0, len(infoBlockJson["seqInfo"])):
     if 'AIF' in infoBlockJson["seqInfo"][n]["name"]:
         continue
     if "SEQ_" in infoBlockJson["seqInfo"][n]["name"]:
         infoBlockJson["seqInfo"][n]["bnk"] = "BANK_" + infoBlockJson["seqInfo"][n]["name"][len("SEQ_"):]
+
+        # not sure how to do this properly but this is the feeling yfm
+        #if (infoBlockJson["seqInfo"][n]["ply"] not in seqToPlayerDict.keys()):
+        #    seqToPlayerDict[infoBlockJson["seqInfo"][n]["ply"]] = []
+        try:
+            seqToPlayerDict[infoBlockJson["seqInfo"][n]["ply"]].append(infoBlockJson["seqInfo"][n]["name"][len("SEQ_"):])
+        except KeyError:
+            seqToPlayerDict[infoBlockJson["seqInfo"][n]["ply"]] = []
+            seqToPlayerDict[infoBlockJson["seqInfo"][n]["ply"]].append(infoBlockJson["seqInfo"][n]["name"][len("SEQ_"):])
 
 # instead of deleting bank stuff, just add the new ones.  can come back through and actually delete things later
 newBanks = sorted(os.listdir("NEW_FILES/NEW_BANK"))
@@ -362,7 +374,65 @@ fileBlockJsonFile.close()
 
 
 
-############ DONE ############
+############ DONE P. 1 ############
+
+
+
+print("Phase 1 down, pass back to original script...")
+
+
+
+############ CALCULATE RAM SPACE NEEDED FOR EACH PLAYER ############
+
+
+
+# need to run the main script to convert things back to raw formats...
+run(["python3", "SDATTool.py", "-b", "gs_sound_data.sdat", "gs_sound_data"])
+
+
+
+n = 0
+# add exception for PLAYER_OPED because it is not used
+finalElement = len(infoBlockJson["playerInfo"]) - 1
+while n < finalElement:
+    maxPlayerSize = 0
+    for i in range(0, len(seqToPlayerDict[infoBlockJson["playerInfo"][n]["name"]])):
+        currName = seqToPlayerDict[infoBlockJson["playerInfo"][n]["name"]][i]
+        try:
+            size = os.path.getsize(f'gs_sound_data/Files/BANK/BANK_{currName}.sbnk') + os.path.getsize(f'gs_sound_data/Files/SEQ/SEQ_{currName}.sseq') + os.path.getsize(f'gs_sound_data/Files/WAVARC/WAVE_ARC_{currName}.swar')
+        except FileNotFoundError:
+            continue
+        if (size > maxPlayerSize):
+            maxPlayerSize = size
+            maxName = currName
+    if (maxPlayerSize == 0):
+        maxPlayerSize = 800
+    elif (maxPlayerSize > 24000):
+        maxPlayerSize = 24000
+    infoBlockJson["playerInfo"][n]["unkB"] = maxPlayerSize + 200
+    print(f'{infoBlockJson["playerInfo"][n]["name"]}\'s max size is {maxPlayerSize + 200} from {maxName}.')
+    n = n + 1
+
+# quick cleanup--make field allow 4 sseq's at once so that things play
+infoBlockJson["playerInfo"][1]["unkA"] = 4
+
+
+
+############ SAVE MODIFIED JSON FILES ############
+
+
+
+infoBlockJsonFile = open("gs_sound_data/InfoBlock.json", "w", encoding="utf-8")
+json.dump(infoBlockJson, infoBlockJsonFile, ensure_ascii=False, indent=4)
+infoBlockJsonFile.close()
+
+fileBlockJsonFile = open("gs_sound_data/FileBlock.json", "w", encoding="utf-8")
+json.dump(fileBlockJson, fileBlockJsonFile, ensure_ascii=False, indent=4)
+fileBlockJsonFile.close()
+
+
+
+############ DONE P. 2 ############
 
 
 
