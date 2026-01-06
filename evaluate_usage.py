@@ -100,6 +100,8 @@ os.makedirs("NEW_FILES/NEW_WAVARC", exist_ok=True)
 OldSWAVToNewSWAV = {}
 swavMapping = 0xFF
 
+searchingForInstrument = 0
+
 for seq in SEQDict:
     #try:
     #    print(seq, UsageDict[seq], UsageDict[UsageDict[seq]], BankToInstrument[UsageDict[seq]])
@@ -111,12 +113,17 @@ for seq in SEQDict:
     BankSWAVHashes = {} # individual bank's index -> hash
     currOutputSwavWavarc = 0
     for instr in SSEQToInstrDict[SEQToSSEQDict[seq]]:
+        if (searchingForInstrument == 1):
+            print(f"Instrument {lastInstr} not found.")
+        lastInstr = instr
+        searchingForInstrument = 1
         print(seq + " (" + SEQToSSEQDict[seq] + ") uses instrument " + instr + " from " + UsageDict[seq] + ".  Searching for instrument...")
         OldSWAVToNewSWAV[seq][instr] = {}
         for entry in BankToInstrument[UsageDict[seq]]:
             if "Unused" not in entry and int(entry) == int(instr):
                 print("Instrument " + instr + " found...  Copying its WAVARC entries over...")
                 #print(BankToInstrument[UsageDict[seq]][instr])
+                searchingForInstrument = 0
                 os.makedirs("NEW_FILES/NEW_WAVARC/WAVE_ARC_" + seq[len("SEQ_"):], exist_ok=True)
                 for n in range(1, len(BankToInstrument[UsageDict[seq]][instr]), 2):
                     if "GAMEBOY" not in UsageDict[seq]:
@@ -141,6 +148,9 @@ for seq in SEQDict:
                             shutil.copyfile(f"gs_sound_data/Files/WAVARC/{currOutputWavArc}/{int(currInputSwavArc):02X}.swav", f"NEW_FILES/NEW_WAVARC/WAVE_ARC_{seq[4:]}/{currOutputSwavWavarc:02X}.swav")
                             OldSWAVToNewSWAV[seq][instr][currInputSwavArc] = currOutputSwavWavarc
                             currOutputSwavWavarc += 1
+    if (searchingForInstrument == 1):
+        print(f"Instrument {instr} not found.")
+        searchingForInstrument = 0
     print("-----------------")
 
 
@@ -217,7 +227,7 @@ fileBlockJsonFile.close()
 # also get a list of which seq -> which player is used so we can calculate ram space later
 seqToPlayerDict = {}
 
-# first, InfoBlock seqInfo.  i am evil so i make everything use the same player, PLAYER_FIELD
+# first, InfoBlock seqInfo.
 for n in range(0, len(infoBlockJson["seqInfo"])):
     if 'AIF' in infoBlockJson["seqInfo"][n]["name"]:
         continue
@@ -232,7 +242,6 @@ for n in range(0, len(infoBlockJson["seqInfo"])):
         except KeyError:
             seqToPlayerDict[infoBlockJson["seqInfo"][n]["ply"]] = []
             seqToPlayerDict[infoBlockJson["seqInfo"][n]["ply"]].append(infoBlockJson["seqInfo"][n]["name"][len("SEQ_"):])
-        #infoBlockJson["seqInfo"][n]["ply"] = "PLAYER_FIELD"
 
 # instead of deleting bank stuff, just add the new ones.  can come back through and actually delete things later
 newBanks = sorted(os.listdir("NEW_FILES/NEW_BANK"))
@@ -395,6 +404,7 @@ run(["python3", "SDATTool.py", "-b", "gs_sound_data.sdat", "gs_sound_data"])
 n = 0
 # add exception for PLAYER_OPED because it is not used
 finalElement = len(infoBlockJson["playerInfo"]) - 1
+maxName = ""
 while n < finalElement:
     maxPlayerSize = 0
     for i in range(0, len(seqToPlayerDict[infoBlockJson["playerInfo"][n]["name"]])):
