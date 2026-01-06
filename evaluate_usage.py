@@ -232,7 +232,7 @@ for n in range(0, len(infoBlockJson["seqInfo"])):
         except KeyError:
             seqToPlayerDict[infoBlockJson["seqInfo"][n]["ply"]] = []
             seqToPlayerDict[infoBlockJson["seqInfo"][n]["ply"]].append(infoBlockJson["seqInfo"][n]["name"][len("SEQ_"):])
-        infoBlockJson["seqInfo"][n]["ply"] = "PLAYER_FIELD"
+        #infoBlockJson["seqInfo"][n]["ply"] = "PLAYER_FIELD"
 
 # instead of deleting bank stuff, just add the new ones.  can come back through and actually delete things later
 newBanks = sorted(os.listdir("NEW_FILES/NEW_BANK"))
@@ -391,33 +391,45 @@ print("Phase 1 down, pass back to original script...")
 run(["python3", "SDATTool.py", "-b", "gs_sound_data.sdat", "gs_sound_data"])
 
 
-# # maybe don't need to do this
-# n = 0
-# # add exception for PLAYER_OPED because it is not used
-# finalElement = len(infoBlockJson["playerInfo"]) - 1
-# while n < finalElement:
-#     maxPlayerSize = 0
-#     for i in range(0, len(seqToPlayerDict[infoBlockJson["playerInfo"][n]["name"]])):
-#         currName = seqToPlayerDict[infoBlockJson["playerInfo"][n]["name"]][i]
-#         try:
-#             size = os.path.getsize(f'gs_sound_data/Files/BANK/BANK_{currName}.sbnk') + os.path.getsize(f'gs_sound_data/Files/SEQ/SEQ_{currName}.sseq') + os.path.getsize(f'gs_sound_data/Files/WAVARC/WAVE_ARC_{currName}.swar')
-#         except FileNotFoundError:
-#             continue
-#         if (size > maxPlayerSize):
-#             maxPlayerSize = size
-#             maxName = currName
-#     if (maxPlayerSize == 0):
-#         maxPlayerSize = 800
-#     elif (maxPlayerSize > 24000):
-#         maxPlayerSize = 24000
-#     infoBlockJson["playerInfo"][n]["unkB"] = maxPlayerSize + 200
-#     print(f'{infoBlockJson["playerInfo"][n]["name"]}\'s max size is {maxPlayerSize + 200} from {maxName}.')
-#     n = n + 1
+# maybe don't need to do this
+n = 0
+# add exception for PLAYER_OPED because it is not used
+finalElement = len(infoBlockJson["playerInfo"]) - 1
+while n < finalElement:
+    maxPlayerSize = 0
+    for i in range(0, len(seqToPlayerDict[infoBlockJson["playerInfo"][n]["name"]])):
+        currName = seqToPlayerDict[infoBlockJson["playerInfo"][n]["name"]][i]
+        try:
+            size = os.path.getsize(f'gs_sound_data/Files/BANK/BANK_{currName}.sbnk') + os.path.getsize(f'gs_sound_data/Files/SEQ/SEQ_{currName}.sseq') + os.path.getsize(f'gs_sound_data/Files/WAVARC/WAVE_ARC_{currName}.swar')
+        except FileNotFoundError:
+            continue
+        if (size > maxPlayerSize):
+            maxPlayerSize = size
+            maxName = currName
+    if (maxPlayerSize == 0):
+        maxPlayerSize = 800
+    #elif (maxPlayerSize > 24000):
+    #    maxPlayerSize = 24000
+
+
+    #infoBlockJson["playerInfo"][n]["unkB"] = int(1.1*maxPlayerSize)
+    if ("PLAYER_FIELD" in infoBlockJson["playerInfo"][n]["name"]):
+        infoBlockJson["playerInfo"][n]["unkB"] = 0 #int(1.1*maxPlayerSize)
+    else:
+        infoBlockJson["playerInfo"][n]["unkB"] = 100000
+    print(f'{infoBlockJson["playerInfo"][n]["name"]}\'s max size is {maxPlayerSize} (set to {infoBlockJson["playerInfo"][n]["unkB"]}) from {maxName}.')
+    n = n + 1
 
 # quick cleanup--make field allow 4 sseq's at once so that things play
-infoBlockJson["playerInfo"][1]["unkA"] = 8
+infoBlockJson["playerInfo"][1]["unkA"] = 2
 
 
+n = 0
+finalElement = len(infoBlockJson["groupInfo"])
+while n < finalElement:
+    infoBlockJson["groupInfo"][n]["count"] = 0
+    infoBlockJson["groupInfo"][n]["subGroup"] = []
+    n = n + 1
 
 ############ SAVE MODIFIED JSON FILES ############
 
