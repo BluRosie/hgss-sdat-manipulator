@@ -38,32 +38,31 @@ for line in UsageFile:
         if (bankCount == 739):
             bankCount += 750-739
 
-UsageFile.close()
+#UsageFile.close()
 
 
 
 ############ CREATE SSEQ TO INSTRUMENT DICTIONARY ############
 
 
-
-InstrFile = open("SMFT_Program_Uses.txt")
+UsageFile.seek(0)
+#InstrFile = open("SMFT_Program_Uses.txt")
 
 currentFile = ""
 SSEQToInstrDict = {}
 
-for line in InstrFile:
+for line in UsageFile:
     if line.startswith("File:"):
         currentFile = line.strip().strip("File: ").replace(" ", "").strip(".smft")
     elif line.startswith("Program"):
-        SSEQToInstrDict[currentFile] = line.strip().strip("Program Numbers:[").strip("]").replace(" ", "").split(",")
+        SSEQToInstrDict[currentFile] = line.strip().strip("Program Numbers: [").strip("]").replace(" ", "").split(",")
 
-InstrFile.close()
+UsageFile.close()
+#InstrFile.close()
 
 
 
 ############ CREATE BANK TO INSTRUMENT DICTIONARY ############
-
-
 
 BankToInstrument = {}
 
@@ -112,6 +111,9 @@ for seq in SEQDict:
     OldSWAVToNewSWAV[seq] = {}
     BankSWAVHashes = {} # individual bank's index -> hash
     currOutputSwavWavarc = 0
+    print(seq)
+    print(SEQToSSEQDict[seq])
+    print(SSEQToInstrDict[SEQToSSEQDict[seq]])
     for instr in SSEQToInstrDict[SEQToSSEQDict[seq]]:
         if (searchingForInstrument == 1):
             print(f"Instrument {lastInstr} not found.")
@@ -397,7 +399,7 @@ print("Phase 1 down, pass back to original script...")
 
 
 # need to run the main script to convert things back to raw formats...
-run(["python3", "SDATTool.py", "-b", "gs_sound_data.sdat", "gs_sound_data"])
+run(["python3", "SDATTool/SDATTool/__main__.py", "-b", "gs_sound_data.sdat", "gs_sound_data"])
 
 
 # maybe don't need to do this
