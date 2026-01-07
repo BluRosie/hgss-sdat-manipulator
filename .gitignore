@@ -1,5 +1,7 @@
 *.sbnk
-*.swar
 *.sdat
+*.swar
+*.sseq
 NEW_FILES
 output.txt
+usage.txt
