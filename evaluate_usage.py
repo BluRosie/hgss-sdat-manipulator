@@ -2,7 +2,7 @@
 
 #import hashlib
 import json
-import pprint
+from pprint import pprint
 import os
 import shutil
 from subprocess import run, check_output
@@ -60,8 +60,6 @@ for line in UsageFile:
 UsageFile.close()
 #InstrFile.close()
 
-
-
 ############ CREATE BANK TO INSTRUMENT DICTIONARY ############
 
 BankToInstrument = {}
@@ -72,16 +70,26 @@ for fileName in BankDict:#["BANK_BGM_FIELD6"]:
     for line in bankFile:
         if line.startswith("\t"):
             lineArray = line.strip().replace(" ", "").split(",")
-            waveArc = lineArray[2]
+            waveArc = int(lineArray[2])
             waveId = lineArray[1]
-            BankToInstrument[fileName][currInstrument] += [UsageDict[fileName][int(waveArc)], waveId]
-        elif "NULL" not in line:
+            if (waveArc >= len(UsageDict[fileName])):
+                # kill nich for having instruments that refer to nonexistent waveArcs
+                print(f"Instrument {currInstrument} from {fileName} calls for waveId {waveId} from nonexistent waveArc {waveArc}.  Instrument not grabbed.")
+                continue
+            else:
+                BankToInstrument[fileName][currInstrument] += [UsageDict[fileName][int(waveArc)], waveId]
+        elif "NULL" not in line and "Unused" not in line:
             lineArray = line.strip().replace(" ", "").split(",")
             currInstrument = lineArray[0]
             if len(lineArray) > 4 and "Keysplit" not in line:
-                waveArc = lineArray[3]
+                waveArc = int(lineArray[3])
                 waveId = lineArray[2]
-                BankToInstrument[fileName][currInstrument] = [UsageDict[fileName][int(waveArc)], waveId]
+                if (waveArc >= len(UsageDict[fileName])):
+                    # kill nich for having instruments that refer to nonexistent waveArcs
+                    print(f"Instrument {currInstrument} from {fileName} calls for waveId {waveId} from nonexistent waveArc {waveArc}.  Instrument not grabbed.")
+                    continue
+                else:
+                    BankToInstrument[fileName][currInstrument] = [UsageDict[fileName][waveArc], waveId]
             else:
                 BankToInstrument[fileName][currInstrument] = []
     bankFile.close()
@@ -135,7 +143,11 @@ for seq in SEQDict:
 
                         # previously was copying over several equivalent SWAV's to pack in each SWAR
                         # now we must check all of the existing files to make sure they are different then the input
-                        inputSHA1 = check_output(["sha1sum", f"gs_sound_data/Files/WAVARC/{currOutputWavArc}/{int(currInputSwavArc):02X}.swav"]).split()[0]
+                        targetFileName = f"gs_sound_data/Files/WAVARC/{currOutputWavArc}/{int(currInputSwavArc):02X}.swav"
+                        if (os.path.exists(targetFileName) == False):
+                            print(f"File within Swar does not exist. Skipping element. ({targetFileName})")
+                            continue
+                        inputSHA1 = check_output(["sha1sum", targetFileName]).split()[0]
                         print(f"Searching for file with SHA {inputSHA1}...")
                         for index in range(0, currOutputSwavWavarc):
                             if inputSHA1 in BankSWAVHashes[index]:
@@ -147,7 +159,7 @@ for seq in SEQDict:
                             OldSWAVToNewSWAV[seq][instr][currInputSwavArc] = swavMapping
                         else:
                             BankSWAVHashes[currOutputSwavWavarc] = inputSHA1
-                            shutil.copyfile(f"gs_sound_data/Files/WAVARC/{currOutputWavArc}/{int(currInputSwavArc):02X}.swav", f"NEW_FILES/NEW_WAVARC/WAVE_ARC_{seq[4:]}/{currOutputSwavWavarc:02X}.swav")
+                            shutil.copyfile(targetFileName, f"NEW_FILES/NEW_WAVARC/WAVE_ARC_{seq[4:]}/{currOutputSwavWavarc:02X}.swav")
                             OldSWAVToNewSWAV[seq][instr][currInputSwavArc] = currOutputSwavWavarc
                             currOutputSwavWavarc += 1
     if (searchingForInstrument == 1):
@@ -244,6 +256,10 @@ for n in range(0, len(infoBlockJson["seqInfo"])):
         except KeyError:
             seqToPlayerDict[infoBlockJson["seqInfo"][n]["ply"]] = []
             seqToPlayerDict[infoBlockJson["seqInfo"][n]["ply"]].append(infoBlockJson["seqInfo"][n]["name"][len("SEQ_"):])
+        
+        # if player field, make into player bgm for good vibes
+        if (infoBlockJson["seqInfo"][n]["ply"] == "PLAYER_FIELD"):
+            infoBlockJson["seqInfo"][n]["ply"] = "PLAYER_BGM"
 
 # instead of deleting bank stuff, just add the new ones.  can come back through and actually delete things later
 newBanks = sorted(os.listdir("NEW_FILES/NEW_BANK"))
@@ -407,29 +423,43 @@ n = 0
 # add exception for PLAYER_OPED because it is not used
 finalElement = len(infoBlockJson["playerInfo"]) - 1
 maxName = ""
+newSizes = [
+    0, #24200,  # PLAYER_PV
+    0, #0,      # PLAYER_FIELD - no longer used
+    0, #65000,  # PLAYER_ME
+    15000, #10000,  # PLAYER_SE_1
+    15000, #10000,  # PLAYER_SE_2
+    0, #10000,  # PLAYER_SE_3
+    0, #10000,  # PLAYER_SE_4
+    0, #450000, # PLAYER_BGM
+    0, #0       # PLAYER_OPED
+]
+
 while n < finalElement:
-    maxPlayerSize = 0
-    for i in range(0, len(seqToPlayerDict[infoBlockJson["playerInfo"][n]["name"]])):
-        currName = seqToPlayerDict[infoBlockJson["playerInfo"][n]["name"]][i]
-        try:
-            size = os.path.getsize(f'gs_sound_data/Files/BANK/BANK_{currName}.sbnk') + os.path.getsize(f'gs_sound_data/Files/SEQ/SEQ_{currName}.sseq') + os.path.getsize(f'gs_sound_data/Files/WAVARC/WAVE_ARC_{currName}.swar')
-        except FileNotFoundError:
-            continue
-        if (size > maxPlayerSize):
-            maxPlayerSize = size
-            maxName = currName
-    if (maxPlayerSize == 0):
-        maxPlayerSize = 800
+    #maxPlayerSize = 0
+    #for i in range(0, len(seqToPlayerDict[infoBlockJson["playerInfo"][n]["name"]])):
+    #    currName = seqToPlayerDict[infoBlockJson["playerInfo"][n]["name"]][i]
+    #    try:
+    #        size = os.path.getsize(f'gs_sound_data/Files/BANK/BANK_{currName}.sbnk') + os.path.getsize(f'gs_sound_data/Files/SEQ/SEQ_{currName}.sseq') + os.path.getsize(f'gs_sound_data/Files/WAVARC/WAVE_ARC_{currName}.swar')
+    #    except FileNotFoundError:
+    #        continue
+    #    if (size > maxPlayerSize):
+    #        maxPlayerSize = size
+    #        maxName = currName
+    #if (maxPlayerSize == 0):
+    #    maxPlayerSize = 800
     #elif (maxPlayerSize > 24000):
     #    maxPlayerSize = 24000
 
 
     #infoBlockJson["playerInfo"][n]["unkB"] = int(1.1*maxPlayerSize)
-    if ("PLAYER_FIELD" in infoBlockJson["playerInfo"][n]["name"]):
-        infoBlockJson["playerInfo"][n]["unkB"] = 0 #int(1.1*maxPlayerSize)
-    else:
-        infoBlockJson["playerInfo"][n]["unkB"] = 100000
-    print(f'{infoBlockJson["playerInfo"][n]["name"]}\'s max size is {maxPlayerSize} (set to {infoBlockJson["playerInfo"][n]["unkB"]}) from {maxName}.')
+    #if ("PLAYER_FIELD" in infoBlockJson["playerInfo"][n]["name"]):
+    #    infoBlockJson["playerInfo"][n]["unkB"] = 0 #int(1.1*maxPlayerSize)
+    #else:
+    #    infoBlockJson["playerInfo"][n]["unkB"] = 100000
+    infoBlockJson["playerInfo"][n]["unkB"] = newSizes[n]
+    #print(f'{infoBlockJson["playerInfo"][n]["name"]}\'s max size is {maxPlayerSize} (set to {infoBlockJson["playerInfo"][n]["unkB"]}) from {maxName}.')
+
     n = n + 1
 
 # quick cleanup--make field allow 4 sseq's at once so that things play
