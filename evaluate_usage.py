@@ -424,14 +424,14 @@ n = 0
 finalElement = len(infoBlockJson["playerInfo"]) - 1
 maxName = ""
 newSizes = [
-    0, #24200,  # PLAYER_PV
+    24200, #24200,  # PLAYER_PV
     0, #0,      # PLAYER_FIELD - no longer used
-    0, #65000,  # PLAYER_ME
+    65000, #65000,  # PLAYER_ME
     15000, #10000,  # PLAYER_SE_1
     15000, #10000,  # PLAYER_SE_2
-    0, #10000,  # PLAYER_SE_3
-    0, #10000,  # PLAYER_SE_4
-    0, #450000, # PLAYER_BGM
+    10000, #10000,  # PLAYER_SE_3
+    10000, #10000,  # PLAYER_SE_4
+    450000, #250000, # PLAYER_BGM
     0, #0       # PLAYER_OPED
 ]
 
