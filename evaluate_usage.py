@@ -88,6 +88,9 @@ for fileName in BankDict:#["BANK_BGM_FIELD6"]:
                     # kill nich for having instruments that refer to nonexistent waveArcs
                     print(f"Instrument {currInstrument} from {fileName} calls for waveId {waveId} from nonexistent waveArc {waveArc}.  Instrument not grabbed.")
                     continue
+                elif "PSG" in line:
+                    # need to trigger something that does not actually copy a swav over
+                    BankToInstrument[fileName][currInstrument] = [UsageDict[fileName][waveArc], -1]
                 else:
                     BankToInstrument[fileName][currInstrument] = [UsageDict[fileName][waveArc], waveId]
             else:
@@ -119,9 +122,6 @@ for seq in SEQDict:
     OldSWAVToNewSWAV[seq] = {}
     BankSWAVHashes = {} # individual bank's index -> hash
     currOutputSwavWavarc = 0
-    print(seq)
-    print(SEQToSSEQDict[seq])
-    print(SSEQToInstrDict[SEQToSSEQDict[seq]])
     for instr in SSEQToInstrDict[SEQToSSEQDict[seq]]:
         if (searchingForInstrument == 1):
             print(f"Instrument {lastInstr} not found.")
@@ -132,7 +132,6 @@ for seq in SEQDict:
         for entry in BankToInstrument[UsageDict[seq]]:
             if "Unused" not in entry and int(entry) == int(instr):
                 print("Instrument " + instr + " found...  Copying its WAVARC entries over...")
-                #print(BankToInstrument[UsageDict[seq]][instr])
                 searchingForInstrument = 0
                 os.makedirs("NEW_FILES/NEW_WAVARC/WAVE_ARC_" + seq[len("SEQ_"):], exist_ok=True)
                 for n in range(1, len(BankToInstrument[UsageDict[seq]][instr]), 2):
@@ -140,6 +139,9 @@ for seq in SEQDict:
                         swavMapping = 0xFF
                         currOutputWavArc = BankToInstrument[UsageDict[seq]][instr][n-1]
                         currInputSwavArc = BankToInstrument[UsageDict[seq]][instr][n]
+                        if (-1 == int(currInputSwavArc)):
+                            print("PSG's should not have any swav's associated.  Skipping element.")
+                            continue
 
                         # previously was copying over several equivalent SWAV's to pack in each SWAR
                         # now we must check all of the existing files to make sure they are different then the input
@@ -155,12 +157,13 @@ for seq in SEQDict:
                                 break
 
                         if (swavMapping != 0xFF):
-                            print(f"Matching SHA found...  Index {swavMapping}.")
+                            print(f"Matching SHA found...  What was swav {currInputSwavArc} is now {swavMapping}.")
                             OldSWAVToNewSWAV[seq][instr][currInputSwavArc] = swavMapping
                         else:
                             BankSWAVHashes[currOutputSwavWavarc] = inputSHA1
                             shutil.copyfile(targetFileName, f"NEW_FILES/NEW_WAVARC/WAVE_ARC_{seq[4:]}/{currOutputSwavWavarc:02X}.swav")
                             OldSWAVToNewSWAV[seq][instr][currInputSwavArc] = currOutputSwavWavarc
+                            print(f"Instrument not already copied over... What was swav {currInputSwavArc} is now {currOutputSwavWavarc}.")
                             currOutputSwavWavarc += 1
     if (searchingForInstrument == 1):
         print(f"Instrument {instr} not found.")
