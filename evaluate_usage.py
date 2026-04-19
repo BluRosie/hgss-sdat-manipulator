@@ -25,7 +25,13 @@ bankCount = 1
 
 for line in UsageFile:
     if line.startswith("SEQ_"):
-        UsageDict[line.split(" uses ")[0].strip()] = line.split(" uses ")[2].strip()
+        print(line.split(" uses ")[2].strip())
+        # seseragi does NOT use an instrument from BANK_SE_FIELD like it says it does
+        # i think there are a few others that are this way
+        if line.startswith("SEQ_SE_GS_N_SESERAGI") and "BANK_SE_FIELD" in line.split(" uses ")[2].strip():
+            UsageDict[line.split(" uses ")[0].strip()] = "BANK_BGM_FIELD1"
+        else:
+            UsageDict[line.split(" uses ")[0].strip()] = line.split(" uses ")[2].strip()
         SEQToSSEQDict[line.split(" uses ")[0].strip()] = line.split(" uses ")[1].strip()
         SEQDict[line.split(" uses ")[0].strip()] = seqCount
         seqCount += 1
@@ -276,11 +282,11 @@ while n < finalElement:
         n = n + 1
 for n in range(0, len(newBanks)):
     baseName = newBanks[n][0:len(newBanks[n]) - len(".txt")]
-    if "SE_GS_N_SESERAGI" in baseName:
-        newBankEntry = {"name": baseName, "fileName": baseName + ".sbnk", "unkA": 0, "wa": ["WAVE_ARC_DUMMY", "", "", ""]}
-    else:
-        newBankEntry = {"name": baseName, "fileName": baseName + ".sbnk", "unkA": 0, "wa": ["WAVE_ARC_" + baseName[len("BANK_"):], "", "", ""]}
-    #newBankEntry = {"name": baseName, "fileName": baseName + ".sbnk", "unkA": 0, "wa": ["WAVE_ARC_" + baseName[len("BANK_"):], "", "", ""]}
+    #if "SE_GS_N_SESERAGI" in baseName:
+    #    newBankEntry = {"name": baseName, "fileName": baseName + ".sbnk", "unkA": 0, "wa": ["WAVE_ARC_DUMMY", "", "", ""]}
+    #else:
+    #    newBankEntry = {"name": baseName, "fileName": baseName + ".sbnk", "unkA": 0, "wa": ["WAVE_ARC_" + baseName[len("BANK_"):], "", "", ""]}
+    newBankEntry = {"name": baseName, "fileName": baseName + ".sbnk", "unkA": 0, "wa": ["WAVE_ARC_" + baseName[len("BANK_"):], "", "", ""]}
     infoBlockJson["bankInfo"].append(newBankEntry)
 
 # now the wavarcInfo--add new entries here as well
@@ -430,11 +436,11 @@ newSizes = [
     24200, #24200,  # PLAYER_PV
     0, #0,      # PLAYER_FIELD - no longer used
     65000, #65000,  # PLAYER_ME
-    15000, #10000,  # PLAYER_SE_1
-    15000, #10000,  # PLAYER_SE_2
+    10000, #10000,  # PLAYER_SE_1
+    10000, #10000,  # PLAYER_SE_2
     10000, #10000,  # PLAYER_SE_3
     10000, #10000,  # PLAYER_SE_4
-    450000, #250000, # PLAYER_BGM
+    470000, #250000, # PLAYER_BGM
     0, #0       # PLAYER_OPED
 ]
 
